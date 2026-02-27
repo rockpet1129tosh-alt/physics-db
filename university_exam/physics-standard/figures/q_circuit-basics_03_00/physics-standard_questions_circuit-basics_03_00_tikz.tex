@@ -1,0 +1,31 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{patterns,angles,quotes,arrows.meta,calc}
+
+\usepackage{circuitikz}
+
+\ctikzset{resistors/width=1.1, batteries/scale=1.2, 
+    capacitors/width=0.2, capacitors/height=0.9,
+    grounds/scale=1.6}
+\ctikzset{bipoles/cuteswitch/thickness=0.23}
+
+\begin{document}
+
+\begin{circuitikz}
+
+    \pgfmathsetmacro{\xa}{7}
+    \pgfmathsetmacro{\ya}{6}
+    
+    \draw (0,0) to [battery1, invert, l=E] ++ (0,\ya)
+    to [cute open switch, l=S$_1$] ++ (\xa/2,0) 
+    to [C, l_=C$_1$, -*] ++ (0,-\ya/2) coordinate (A)
+    to [C, l_=C$_2$, -*] ++ (0,-\ya/2) coordinate (B) -- (0,0);
+    \draw (A) to [cute open switch, l=S$_2$] ++ (\xa/2,0)
+    to [C, l_=C$_3$] ++ (0,-\ya/2) -- (B);
+        
+\end{circuitikz}
+
+\end{document}

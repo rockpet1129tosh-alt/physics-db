@@ -1,0 +1,48 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usepackage{luatexja}
+\usepackage{amsmath}
+
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=1.18}
+
+\usetikzlibrary{patterns,angles,quotes,arrows.meta,calc}
+
+\begin{document}
+
+\begin{tikzpicture}[x=0.75cm, y=0.5cm]
+
+    \pgfmathsetmacro{\X}{10}
+    \pgfmathsetmacro{\Y}{11}
+
+    % 1. 細かな方眼（グリッド）の描画
+    \draw[step=0.5, gray!40] (0,0) grid (\X,\Y);
+    \draw[step=1.0, black!60] (0,0) grid (\X,\Y);
+
+    % 2. 軸と目盛り数値の描画
+    \draw[semithick] (0,0) -- (\X,0) node[below=7mm, left=-2mm, font=\small] {電\:圧 [V]};
+    \draw[semithick] (0,0) -- (0,\Y)
+        node[left=9mm, below=-2mm, text width=1.4em, align=center, font=\small] {電流{[A]}};
+
+    % x軸目盛り
+    \foreach \x in {0,1,...,\X}
+        \node[below, font=\small] at (\x, 0) {\x};
+
+    % y軸目盛り (0.0, 0.1, ..., 1.1)
+    \foreach \y in {0,1,...,\Y}
+        \node[left, font=\small] at (0, \y)
+        {\pgfmathparse{\y/10}\pgfmathprintnumber[fixed, precision=1, zerofill]{\pgfmathresult}};
+
+    % 3. 特性曲線の描画（全体を滑らかに結ぶ）
+    % 各点での接線の傾きを調整し、画像（図1）のような「常に上に凸」な曲線を再現
+    \draw[thick] (0,0) 
+        .. controls (0.5,2.5) and (1.5,4.5) .. (4,6)   % 原点から(4,6)への滑らかな立ち上がり
+        .. controls (4.3,6.2) and (4.7,6.35) .. (5,6.5) % (4,6)から(5,6.5)への微細な接続
+        .. controls (6.5,7.2) and (8.5,8.0)  .. (10,8.5); % (5,6.5)から(10,8.5)への緩やかな伸び
+
+\end{tikzpicture}
+
+\end{document}

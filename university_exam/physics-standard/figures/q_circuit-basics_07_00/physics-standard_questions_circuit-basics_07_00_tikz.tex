@@ -1,0 +1,46 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{patterns,angles,quotes,arrows.meta,calc}
+
+\usepackage{circuitikz}
+
+\ctikzset{resistors/width=1.1, batteries/scale=1.2, 
+    capacitors/width=0.2, capacitors/height=0.9,
+    grounds/scale=1.6}
+\ctikzset{bipoles/cuteswitch/thickness=0.23}
+
+\begin{document}
+
+\begin{circuitikz}
+
+    \pgfmathsetmacro{\xa}{2.3}
+    \pgfmathsetmacro{\w}{3.2}
+    \pgfmathsetmacro{\t}{0.1}
+    \pgfmathsetmacro{\h}{0.18}
+    \pgfmathsetmacro{\d}{1.2}
+
+    \draw (0,0) to [battery1, invert, l_=B$_1$] ++ (0,3*\d+2*\h)
+    to [cute open switch, l=S$_1$,] ++ (\xa,0) ;
+    \draw (\xa+\w,2*\d+\h) to [cute open switch, l=S$_2$, -*] ++ (\xa,0)
+    to [battery1, l_=B$_2$] ++ (0,-2*\d-\h)
+    to [short] ++ (-\xa,0) ;
+    \draw (\xa,0) to [short, -*] (0,0) node [ground] {};
+
+    \draw[thick] (\xa,3*\d+3*\h/2) rectangle ++ (\w,\h)
+        node [right=-1.5mm,above=-0.3mm]{X} ;
+    \draw[thick] (\xa,2*\d+\h/2) rectangle ++ (\w,\h)
+        node [right=-1.5mm,above=-0.3mm]{Y} ;        
+    \draw[thick] (\xa,-\h/2) rectangle ++ (\w,\h)
+        node [right=-1.5mm,above=-0.3mm]{Z} ;
+
+    \draw[semithick,<->,>={Stealth}] (\xa+\t,3*\d+3*\h/2) -- (\xa+\t,2*\d+3*\h/2)
+        node[midway,left] {$d$};
+    \draw[semithick,<->,>={Stealth}] (\xa+\t,2*\d+\h/2) -- (\xa+\t,\h/2)
+        node[midway,left] {$2d$};
+
+\end{circuitikz}
+
+\end{document}

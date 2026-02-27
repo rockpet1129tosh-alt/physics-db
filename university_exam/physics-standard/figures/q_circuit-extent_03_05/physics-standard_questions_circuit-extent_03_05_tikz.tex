@@ -1,0 +1,39 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{patterns,angles,quotes,arrows.meta,calc}
+
+\usepackage{circuitikz}
+
+\ctikzset{resistors/width=1.1, batteries/scale=1.2, 
+    capacitors/width=0.2, capacitors/height=0.9,
+    grounds/scale=1.6}
+\ctikzset{bipoles/cuteswitch/thickness=0.23}
+
+\begin{document}
+
+\begin{circuitikz}
+
+    \pgfmathsetmacro{\xa}{5.6}
+    \pgfmathsetmacro{\ya}{5.6}
+
+    \draw (0,0) to [european resistor, -*] ++ (0,\ya/2) coordinate (S)
+    to [european resistor, -o] ++ (0,\ya/2) node [anchor=south east] {A}
+    to [european resistor, -*] ++ (\xa/2,0) coordinate (T)
+    to [european resistor, -o] ++ (\xa/2,0) node [anchor=south west] {C}
+    to [european resistor, -*] ++ (0,-\ya/2)
+    to [european resistor, -o] ++ (0,-\ya/2) node [anchor=north west] {B}
+    to [european resistor, -*] ++ (-\xa/2,0)
+    to [european resistor, -o] ++ (-\xa/2,0);
+
+    \draw (S) to [european resistor, -*] ++ (\xa/2,0)
+    to [european resistor, -*] ++ (\xa/2,0);
+
+    \draw (T) to [european resistor, -*] ++ (0,-\ya/2)
+    to [european resistor, -*] ++ (0,-\ya/2);
+
+\end{circuitikz}
+
+\end{document}

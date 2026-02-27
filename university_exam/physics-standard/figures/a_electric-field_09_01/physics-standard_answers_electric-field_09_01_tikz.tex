@@ -1,0 +1,81 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{calc, intersections}
+
+\usepackage{amsmath}
+\usepackage{luatexja}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth]
+
+    % --- 1. 変数定義 ---
+    \pgfmathsetmacro{\xmax}{7}
+    \pgfmathsetmacro{\ymax}{7}
+    \pgfmathsetmacro{\a}{3.22}
+    
+    \pgfmathsetmacro{\xa}{2.2}
+    \pgfmathsetmacro{\xb}{4.8}
+    \pgfmathsetmacro{\h}{\a*2/\xb}
+    \pgfmathsetmacro{\g}{\a*3/\xb}
+    \pgfmathsetmacro{\f}{\a*7/\xb}
+    \pgfmathsetmacro{\p}{\a*3/\xa} 
+
+    % --- 2. 座標軸 ---
+    \draw[->, semithick] (-.5,0) -- (\xmax,0) node[right] {$x$};
+    \draw[->, semithick] (0,-.5) -- (0,\ymax) node[above] {$y$};
+    \node at (0,0) [below left] {O};
+
+    % --- 3. 電気力線 (点Fを通る双曲線 y^2 - x^2 = C) ---
+    \pgfmathsetmacro{\CF}{\directlua{tex.print(\f*\f - \xb*\xb)}} 
+    \pgfmathsetmacro{\startXF}{\directlua{tex.print(math.sqrt(math.abs(\CF)))}}
+    \pgfmathsetmacro{\endxF}{\directlua{tex.print(math.sqrt(\ymax*\ymax - \CF))}}
+    
+    % 本体描画
+    \draw[thick, name path=fieldLineF, domain=\startXF:{min(\xmax, \endxF)}, samples=400, smooth] 
+        plot(\x, {\directlua{tex.print(math.sqrt(math.max(0, \x*\x + \CF)))}});
+
+    % 電気力線の矢印
+    % 【修正：極短の矢印を x=3 に配置】
+    \pgfmathsetmacro{\targetX}{3.0}
+    \pgfmathsetmacro{\targetY}{\directlua{tex.print(math.sqrt(math.max(0, \targetX*\targetX + \CF)))}}
+    \pgfmathsetmacro{\angle}{atan2(\targetX, \targetY)}
+    
+    % 矢印の長さを (0.1, 0) -- (-0.1, 0) から (0.05, 0) -- (-0.05, 0) へ短縮
+    % これにより接点との乖離（浮き）を最小限にします
+    \draw[thick, ->] [shift={(\targetX, \targetY)}, rotate=\angle] (0.05, 0) -- (-0.05, 0);
+
+    % --- 4. 等電位線（反比例群）と直角記号 ---
+    \foreach \k in {1,2,...,14} {
+        \pgfmathsetmacro{\kx}{max(0.35, \a*\k/\ymax)}
+        \draw[thin, name path=pot\k, domain=\kx:\xmax, samples=200, smooth] 
+            plot(\x, {\a*\k/\x});
+
+        \ifnum\k=1 \def\doit{1} \else \ifnum\k=4 \def\doit{1} \else \def\doit{0} \fi \fi
+        \ifnum\doit=1
+            \path [name intersections={of=fieldLineF and pot\k, by={Pint\k}}];
+            \ifx\Pint\k\undefined\else
+                % 記号が等電位線と直交するように回転
+                \draw [thin] let \p1 = (Pint\k), \n1 = {atan2(\y1, \x1)} in 
+                    [shift={(Pint\k)}, rotate={90+\n1}] (0.15,0) -- (0.15,0.15) -- (0,0.15);
+            \fi
+        \fi
+    }
+
+    % --- 5. 電位ラベルの追加 ---
+    \foreach \v/\val in {1/2, 3/6, 5/10, 7/14, 9/18, 11/22} {
+        \node at (\xmax, \a*\v/\xmax) [right] {\small{\val\,V}};
+    }
+
+    % --- 6. 指定点のプロット ---
+    \filldraw[fill=black] (\xb,\h) circle (1.6pt) node[below] {H};
+    \filldraw[fill=black] (\xb,\g) circle (1.6pt) node[above] {G};
+    \filldraw[fill=black] (\xb,\f) circle (1.6pt) node[above=2.3mm,right=-1.8mm] {F};
+    \filldraw[fill=black] (\xa,\p) circle (1.6pt) node[above=2.3mm,right=-1mm] {P};
+
+\end{tikzpicture}
+
+\end{document}

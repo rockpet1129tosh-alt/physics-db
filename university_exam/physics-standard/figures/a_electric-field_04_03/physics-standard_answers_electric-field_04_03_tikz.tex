@@ -1,0 +1,83 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{calc, intersections}
+
+\usepackage{amsmath}
+\usepackage{luatexja}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth]
+
+    % --- 1. 変数定義 ---
+    \pgfmathsetmacro{\xmax}{7}
+    \pgfmathsetmacro{\ymax}{7}
+    \pgfmathsetmacro{\a}{3.22}
+    
+    \pgfmathsetmacro{\xa}{2.2}
+    \pgfmathsetmacro{\xb}{4.8}
+    \pgfmathsetmacro{\h}{\a*2/\xb}
+    \pgfmathsetmacro{\g}{\a*3/\xb}
+    \pgfmathsetmacro{\f}{\a*7/\xb}
+    \pgfmathsetmacro{\p}{\a*3/\xa} 
+
+    % --- 2. 座標軸 ---
+    \draw[->, semithick] (-.5,0) -- (\xmax,0) node[right] {$x$};
+    \draw[->, semithick] (0,-.5) -- (0,\ymax) node[above] {$y$};
+    \node at (0,0) [below left] {O};
+
+    % --- 3. 電気力線 (点Pを通る双曲線 y^2 - x^2 = C) ---
+    % 定数 C を Lua で計算
+    \pgfmathsetmacro{\CP}{\directlua{tex.print(\p*\p - \xa*\xa)}} 
+    % 枠の上端 (y=7) に達する x 座標を計算
+    \pgfmathsetmacro{\endxP}{\directlua{tex.print(math.sqrt(math.max(0, \ymax*\ymax - \CP)))}}
+    
+    % 本体描画 (Luaを使用して計算エラーを完全回避)
+    \draw[thick, name path=fieldLineP, domain=0:{\endxP}, samples=400, smooth] 
+        plot(\x, {\directlua{tex.print(math.sqrt(\x*\x + \CP))}});
+
+    % 【電気力線の矢印を途中に配置】
+    % x=1.9 付近に設置。向きは接線の傾き dy/dx = x/y に合わせる
+    \pgfmathsetmacro{\targetX}{1.9}
+    \pgfmathsetmacro{\targetY}{\directlua{tex.print(math.sqrt(\targetX*\targetX + \CP))}}
+    \pgfmathsetmacro{\angle}{atan2(\targetX, \targetY)}
+    
+    % 電場は外から内(左上方向)へ向かうので、角度を調整して矢印を描画
+    \draw[thick, ->] [shift={(\targetX, \targetY)}, rotate=\angle] (0.1, 0) -- (-0.1, 0);
+
+    % --- 4. 等電位線（反比例群）とラベル、直角記号 ---
+    \foreach \k in {1,2,...,14} {
+        % yが巨大になりすぎないよう開始点を 0.35 に制限
+        \pgfmathsetmacro{\kx}{max(0.35, \a*\k/\ymax)}
+        \draw[thin, name path=pot\k, domain=\kx:\xmax, samples=200, smooth] 
+            plot(\x, {\a*\k/\x});
+
+        % --- 直角記号（k=1 と k=4 のみ、標準の太さ thin） ---
+        \ifnum\k=1 \def\doit{1} \else \ifnum\k=4 \def\doit{1} \else \def\doit{0} \fi \fi
+        \ifnum\doit=1
+            \path [name intersections={of=fieldLineP and pot\k, by={Pint\k}}];
+            \ifx\Pint\k\undefined\else
+                % let構文で座標を抽出して直角記号を描画
+                \draw [thin] let \p1 = (Pint\k), \n1 = {atan2(\x1, \y1)} in 
+                    [shift={(Pint\k)}, rotate=\n1] (0.15,0) -- (0.15,0.15) -- (0,0.15);
+            \fi
+        \fi
+    }
+
+    % --- 5. 電位ラベルの追加 (グラフの右端) ---
+    \foreach \v/\val in {1/2, 3/6, 5/10, 7/14, 9/18, 11/22} {
+        \node at (\xmax, \a*\v/\xmax) [right] {\small{\val\,V}};
+    }
+
+    % --- 6. 指定点のプロット ---
+    \filldraw[fill=black] (\xb,\h) circle (1.6pt) node[below] {H};
+    \filldraw[fill=black] (\xb,\g) circle (1.6pt) node[above] {G};
+    \filldraw[fill=black] (\xb,\f) circle (1.6pt) node[above=2.3mm,right=-1.8mm] {F};
+    \filldraw[fill=black] (\xa,\p) circle (1.6pt) node[above=2.3mm,right=-1mm] {P};
+
+\end{tikzpicture}
+
+\end{document}

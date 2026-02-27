@@ -1,0 +1,64 @@
+
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+
+\usetikzlibrary{decorations.pathmorphing, decorations.pathreplacing,
+    decorations.markings, arrows.meta, calc, patterns, angles, quotes}
+
+\usepackage{amsmath}
+\usepackage{luatexja}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth,scale=2.33]
+   
+    \pgfmathsetmacro{\xmax}{3}
+    \pgfmathsetmacro{\ymax}{3}
+        
+    % 座標軸の描画
+    \draw[->,>=stealth,semithick] (-.214,0) -- (\xmax,0) node[right] {$x$};
+    \draw[->,>=stealth,semithick] (0,-.214) -- (0,\ymax) node[above] {$y$};
+    \node at (0,0) [below left] {O};
+    
+     % 2. 等電位線 phi = 0 (y = x)
+    \draw[thick] (0,0) -- (3,3);
+    \node[rotate=45, fill=white, inner sep=1pt] at (1.5,1.5) {\small $\phi = 0\,\mathrm{V}$};
+
+    % 3. 等電位線 phi = 10 (y = sqrt(x^2 - 1))
+    \draw[thick, domain=1:3, samples=300] plot (\x, {sqrt(\x*\x - 1)});
+    % 点 (2, sqrt(3)) 付近でラベルを配置。傾き dy/dx = x/y = 2/sqrt(3) -> 約49度
+    \node[rotate=49, fill=white, inner sep=1pt] at (2, 1.732) {\small $\phi = 10\,\mathrm{V}$};
+
+    % 4. 等電位線 phi = 20 (y = sqrt(x^2 - 2))
+    \draw[thick, domain={sqrt(2)}:3, samples=300] plot (\x, {sqrt(\x*\x - 2)});
+    % 点 (2.5, sqrt(4.25)) 付近。傾き dy/dx = 2.5/2.06 -> 約50度
+    \node[rotate=50, fill=white, inner sep=1pt] at (2.5, 2.06) {\small $\phi = 20\,\mathrm{V}$};
+
+    % 5. 等電位線 phi = -10 (x = sqrt(y^2 - 1))
+    \draw[thick, domain=1:3, samples=300] plot ({sqrt(\x*\x - 1)}, \x);
+    % 点 (sqrt(3), 2) 付近。傾き dy/dx = x/y = sqrt(3)/2 -> 約41度
+    \node[rotate=41, fill=white, inner sep=1pt] at (1.732, 2) {\small $\phi = -10\,\mathrm{V}$};
+
+    % 6. 等電位線 phi = -20 (x = sqrt(y^2 - 2))
+    \draw[thick, domain={sqrt(2)}:3, samples=300] plot ({sqrt(\x*\x - 2)}, \x);
+    \node[rotate=40, fill=white, inner sep=1pt] at (2.06, 2.5) {\small $\phi = -20\,\mathrm{V}$};
+
+    % 7. 電気力線 (y = 1/x)
+    \begin{scope}\clip(0,0)rectangle(\xmax,\ymax);
+    \draw[thick, domain=0.1:\xmax, samples=300,thick,postaction=
+        {decorate,decoration={
+        markings, mark=at position 0.77 with {\arrow{Stealth[reversed]}}}
+        }] plot (\x, {1/\x});
+    \end{scope}
+    % 点 (0.5, 2) 付近。傾き dy/dx = -1/x^2 = -4 -> 約-76度
+    \node[rotate=-76, above, inner sep=2pt] at (0.52, 1.92) {\small 電気力線};
+    
+
+    % 通過点(1, 1)
+    \fill (1,1) circle (1pt);
+    \node[left=2pt, font=\small] at (1,1) {(1, 1)};
+
+\end{tikzpicture}
+
+\end{document}
