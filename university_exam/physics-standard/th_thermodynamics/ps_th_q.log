@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  28 FEB 2026 07:24
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  1 MAR 2026 07:45
  restricted system commands enabled.
 **ps_th_q.tex
 (./ps_th_q.tex
@@ -1776,35 +1776,35 @@ LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic-Regular.otf(0)/m/n' will be
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic-Regular.otf(0)/m/n' will be
 
 (Font)              scaled to size 9.19998pt on input line 8.
-<../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf, id=4, 275.64682pt x 7
-4.71413pt>
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 8.
+<../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf, id=4, 275.64682pt x 74.714
+13pt>
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 8.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-<../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>] (./thermodynamics-ex
-ception/ps_th_ex_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 12.
+<../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>]
+(./thermodynamics-exception/ps_th_ex_q.tex)
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 12.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [2
 
 
 ]
 (./thermodynamics-extent/ps_th_et_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 16.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 16.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [3
 

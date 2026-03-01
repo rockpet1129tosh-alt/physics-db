@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  28 FEB 2026 07:36
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  1 MAR 2026 08:44
  restricted system commands enabled.
 **ps_q.tex
 (./ps_q.tex
@@ -1876,145 +1876,132 @@ LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
 (Font)              scaled to size 4.59999pt on input line 10.
 )
-<../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf, id=12, 275.64682pt x 74.
-71413pt>
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 8.
+<../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf, id=12, 275.64682pt x 74.71413
+pt>
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 8.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [2
 
 
-<../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>] (./me_mechanics/time-tr
-acking/ps_me_tt_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 12.
+<../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>] (./me_mechanics/time-trackin
+g/ps_me_tt_q.tex)
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 12.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
+ [3
 
-[3
 
-
-] (./me_mechanics/mechanical-energy/ps_me_en_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 16.
+]
+(./me_mechanics/mechanical-energy/ps_me_en_q.tex)
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 16.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [4
 
 
 ]
 (./me_mechanics/circular-motion/ps_me_cm_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 20.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 20.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [5
 
 
 ]
 (./me_mechanics/multibody/ps_me_mb_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 24.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 24.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [6
 
 
 ]
 (./me_mechanics/collision/ps_me_cl_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 28.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 28.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [7
 
 
 ]
 (./me_mechanics/celestial-mechanics/ps_me_ct_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 32.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 32.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [8
 
 
 ]
 (./me_mechanics/moving-coordinate-system/ps_me_ms_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 36.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 36.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [9
 
 
 ]
 (./me_mechanics/rigid-body/ps_me_rb_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 40.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 40.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [10
 
 
 ]
 (./me_mechanics/cog/ps_me_cg_q.tex))
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 103.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 103.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [11
 
 
 ] (./th_thermodynamics/ps_th_q.tex
 (./th_thermodynamics/thermodynamics-basic/ps_th_ba_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 8.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 8.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [12
 
 
 ]
 (./th_thermodynamics/thermodynamics-exception/ps_th_ex_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 12.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 12.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [13
 
 
 ]
 (./th_thermodynamics/thermodynamics-extent/ps_th_et_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 16.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 16.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [14
 
@@ -2034,20 +2021,19 @@ LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
 (Font)              scaled to size 4.59999pt on input line 15.
-<em_electromagnetism/electric-field/04_from-potential-1/fig/fig_em_ef_04/fig_em
-_ef_04_03.pdf, id=72, 240.37202pt x 228.91121pt>
-File: em_electromagnetism/electric-field/04_from-potential-1/fig/fig_em_ef_04/f
-ig_em_ef_04_03.pdf Graphic file (type pdf)
-<use em_electromagnetism/electric-field/04_from-potential-1/fig/fig_em_ef_04/fi
-g_em_ef_04_03.pdf>
+<em_electromagnetism/electric-field/04_from-potential-1/fig_em_ef_04/fig_em_ef_
+04_03_q.pdf, id=72, 240.37202pt x 228.91121pt>
+File: em_electromagnetism/electric-field/04_from-potential-1/fig_em_ef_04/fig_e
+m_ef_04_03_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/electric-field/04_from-potential-1/fig_em_ef_04/fig_em
+_ef_04_03_q.pdf>
 Package luatex.def Info: em_electromagnetism/electric-field/04_from-potential-1
-/fig/fig_em_ef_04/fig_em_ef_04_03.pdf  used on input line 34.
+/fig_em_ef_04/fig_em_ef_04_03_q.pdf  used on input line 34.
 (luatex.def)             Requested size: 240.37141pt x 228.91063pt.
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 37.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 37.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
 [15
@@ -2057,440 +2043,470 @@ used on input line 37.
 (./em_electromagnetism/electric-field/05_from-potential-2/ps_em_ef_05_q.tex)
 (./em_electromagnetism/electric-field/06_add-point-charge/ps_em_ef_06_q.tex)
 (./em_electromagnetism/electric-field/07_add-uniform/ps_em_ef_07_q.tex
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 11.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 11.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [16<./em_electromagnetism/electric-field/04_from-potential-1/fig/fig_em_ef_04/f
-ig_em_ef_04_03.pdf>])
+ [16<./em_electromagnetism/electric-field/04_from-potential-1/fig_em_ef_04/fig_e
+m_ef_04_03_q.pdf>])
 (./em_electromagnetism/electric-field/08_add-field-lines/ps_em_ef_08_q.tex)
 (./em_electromagnetism/electric-field/09_add-equipotential-lines/ps_em_ef_09_q.
 tex
-<em_electromagnetism/electric-field/09_add-equipotential-lines/fig/fig_em_ef_09
-/fig_em_ef_09_01.pdf, id=104, 240.37202pt x 228.91121pt>
-File: em_electromagnetism/electric-field/09_add-equipotential-lines/fig/fig_em_
-ef_09/fig_em_ef_09_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/electric-field/09_add-equipotential-lines/fig/fig_em_e
-f_09/fig_em_ef_09_01.pdf>
+<em_electromagnetism/electric-field/09_add-equipotential-lines/fig_em_ef_09/fig
+_em_ef_09_01_q.pdf, id=104, 240.37202pt x 228.91121pt>
+File: em_electromagnetism/electric-field/09_add-equipotential-lines/fig_em_ef_0
+9/fig_em_ef_09_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/electric-field/09_add-equipotential-lines/fig_em_ef_09
+/fig_em_ef_09_01_q.pdf>
 Package luatex.def Info: em_electromagnetism/electric-field/09_add-equipotentia
-l-lines/fig/fig_em_ef_09/fig_em_ef_09_01.pdf  used on input line 21.
+l-lines/fig_em_ef_09/fig_em_ef_09_01_q.pdf  used on input line 21.
 (luatex.def)             Requested size: 240.37141pt x 228.91063pt.
 ))
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 8.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 8.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [17<./em_electromagnetism/electric-field/09_add-equipotential-lines/fig/fig_em_
-ef_09/fig_em_ef_09_01.pdf>]
+ [17<./em_electromagnetism/electric-field/09_add-equipotential-lines/fig_em_ef_0
+9/fig_em_ef_09_01_q.pdf>]
 (./em_electromagnetism/circuit-basics/ps_em_cb_q.tex
 (./em_electromagnetism/circuit-basics/01_kirchhoff/ps_em_cb_01_q.tex
-<em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_
-01.pdf, id=129, 229.48134pt x 110.53897pt>
-File: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_c
-b_01_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb
-_01_01.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fi
-g_em_cb_01/fig_em_cb_01_01.pdf  used on input line 14.
+<em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_01_q
+.pdf, id=129, 229.48134pt x 110.53897pt>
+File: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01
+_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_
+01_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em
+_cb_01/fig_em_cb_01_01_q.pdf  used on input line 14.
 (luatex.def)             Requested size: 229.48077pt x 110.53868pt.
-<em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_
-02.pdf, id=130, 229.48134pt x 150.37279pt>
-File: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_c
-b_01_02.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb
-_01_02.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fi
-g_em_cb_01/fig_em_cb_01_02.pdf  used on input line 24.
+<em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_02_q
+.pdf, id=130, 229.48134pt x 150.37279pt>
+File: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01
+_02_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_
+02_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em
+_cb_01/fig_em_cb_01_02_q.pdf  used on input line 24.
 (luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_
-03.pdf, id=131, 229.48134pt x 150.37279pt>
-File: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_c
-b_01_03.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb
-_01_03.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fi
-g_em_cb_01/fig_em_cb_01_03.pdf  used on input line 34.
+<em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_03_q
+.pdf, id=131, 229.48134pt x 150.37279pt>
+File: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01
+_03_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_
+03_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em
+_cb_01/fig_em_cb_01_03_q.pdf  used on input line 34.
 (luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_
-04.pdf, id=132, 229.48134pt x 158.90868pt>
-File: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_c
-b_01_04.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb
-_01_04.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig/fi
-g_em_cb_01/fig_em_cb_01_04.pdf  used on input line 45.
+<em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_04_q
+.pdf, id=132, 229.48134pt x 158.90868pt>
+File: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01
+_04_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_
+04_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-basics/01_kirchhoff/fig_em
+_cb_01/fig_em_cb_01_04_q.pdf  used on input line 45.
 (luatex.def)             Requested size: 229.48077pt x 158.90828pt.
 )
 (./em_electromagnetism/circuit-basics/02_charge-conservation-1/ps_em_cb_02_q.te
 x
-<em_electromagnetism/circuit-basics/02_charge-conservation-1/fig/fig_em_cb_02/f
-ig_em_cb_02_00.pdf, id=133, 245.31148pt x 126.9262pt>
-File: em_electromagnetism/circuit-basics/02_charge-conservation-1/fig/fig_em_cb
-_02/fig_em_cb_02_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/02_charge-conservation-1/fig/fig_em_cb_
-02/fig_em_cb_02_00.pdf>
+<em_electromagnetism/circuit-basics/02_charge-conservation-1/fig_em_cb_02/fig_e
+m_cb_02_00_q.pdf, id=133, 245.31148pt x 126.9262pt>
+File: em_electromagnetism/circuit-basics/02_charge-conservation-1/fig_em_cb_02/
+fig_em_cb_02_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/02_charge-conservation-1/fig_em_cb_02/f
+ig_em_cb_02_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/02_charge-conservat
-ion-1/fig/fig_em_cb_02/fig_em_cb_02_00.pdf  used on input line 28.
+ion-1/fig_em_cb_02/fig_em_cb_02_00_q.pdf  used on input line 28.
 (luatex.def)             Requested size: 245.31087pt x 126.92587pt.
 )
 (./em_electromagnetism/circuit-basics/03_charge-conservation-2/ps_em_cb_03_q.te
 x
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 10.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 10.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [18
 
-<./em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01
-_01.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb_01/fig_
-em_cb_01_02.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig/fig_em_cb
-_01/fig_em_cb_01_03.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig/f
-ig_em_cb_01/fig_em_cb_01_04.pdf><./em_electromagnetism/circuit-basics/02_charge-
-conservation-1/fig/fig_em_cb_02/fig_em_cb_02_00.pdf>]
-<em_electromagnetism/circuit-basics/03_charge-conservation-2/fig/fig_em_cb_03/f
-ig_em_cb_03_00.pdf, id=224, 245.31148pt x 200.90358pt>
-File: em_electromagnetism/circuit-basics/03_charge-conservation-2/fig/fig_em_cb
-_03/fig_em_cb_03_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/03_charge-conservation-2/fig/fig_em_cb_
-03/fig_em_cb_03_00.pdf>
+<./em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_01_01_
+q.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_em_cb_
+01_02_q.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_01/fig_
+em_cb_01_03_q.pdf><./em_electromagnetism/circuit-basics/01_kirchhoff/fig_em_cb_0
+1/fig_em_cb_01_04_q.pdf><./em_electromagnetism/circuit-basics/02_charge-conserva
+tion-1/fig_em_cb_02/fig_em_cb_02_00_q.pdf>]
+<em_electromagnetism/circuit-basics/03_charge-conservation-2/fig_em_cb_03/fig_e
+m_cb_03_00_q.pdf, id=224, 245.31148pt x 200.90358pt>
+File: em_electromagnetism/circuit-basics/03_charge-conservation-2/fig_em_cb_03/
+fig_em_cb_03_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/03_charge-conservation-2/fig_em_cb_03/f
+ig_em_cb_03_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/03_charge-conservat
-ion-2/fig/fig_em_cb_03/fig_em_cb_03_00.pdf  used on input line 31.
+ion-2/fig_em_cb_03/fig_em_cb_03_00_q.pdf  used on input line 31.
 (luatex.def)             Requested size: 245.31087pt x 200.90308pt.
 )
 (./em_electromagnetism/circuit-basics/04_capacitor-charging/ps_em_cb_04_q.tex
-<em_electromagnetism/circuit-basics/04_capacitor-charging/fig/fig_em_cb_04/fig_
-em_cb_04_00.pdf, id=225, 245.31148pt x 113.95172pt>
-File: em_electromagnetism/circuit-basics/04_capacitor-charging/fig/fig_em_cb_04
-/fig_em_cb_04_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/04_capacitor-charging/fig/fig_em_cb_04/
-fig_em_cb_04_00.pdf>
+<em_electromagnetism/circuit-basics/04_capacitor-charging/fig_em_cb_04/fig_em_c
+b_04_00_q.pdf, id=225, 245.31148pt x 113.95172pt>
+File: em_electromagnetism/circuit-basics/04_capacitor-charging/fig_em_cb_04/fig
+_em_cb_04_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/04_capacitor-charging/fig_em_cb_04/fig_
+em_cb_04_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/04_capacitor-chargi
-ng/fig/fig_em_cb_04/fig_em_cb_04_00.pdf  used on input line 32.
+ng/fig_em_cb_04/fig_em_cb_04_00_q.pdf  used on input line 32.
 (luatex.def)             Requested size: 245.31087pt x 113.95143pt.
 )
 (./em_electromagnetism/circuit-basics/05_capacitor-internal-1/ps_em_cb_05_q.tex
-<em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig/fig_em_cb_05/fi
-g_em_cb_05_00.pdf, id=226, 164.24963pt x 168.97328pt>
-File: em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig/fig_em_cb_
-05/fig_em_cb_05_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig/fig_em_cb_0
-5/fig_em_cb_05_00.pdf>
+<em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig_em_cb_05/fig_em
+_cb_05_00_q.pdf, id=226, 164.24963pt x 168.97328pt>
+File: em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig_em_cb_05/f
+ig_em_cb_05_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig_em_cb_05/fi
+g_em_cb_05_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/05_capacitor-intern
-al-1/fig/fig_em_cb_05/fig_em_cb_05_00.pdf  used on input line 29.
+al-1/fig_em_cb_05/fig_em_cb_05_00_q.pdf  used on input line 29.
 (luatex.def)             Requested size: 164.24922pt x 168.97285pt.
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 32.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 32.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
-[19<./em_electromagnetism/circuit-basics/03_charge-conservation-2/fig/fig_em_cb_
-03/fig_em_cb_03_00.pdf><./em_electromagnetism/circuit-basics/04_capacitor-chargi
-ng/fig/fig_em_cb_04/fig_em_cb_04_00.pdf>])
+[19<./em_electromagnetism/circuit-basics/03_charge-conservation-2/fig_em_cb_03/f
+ig_em_cb_03_00_q.pdf><./em_electromagnetism/circuit-basics/04_capacitor-charging
+/fig_em_cb_04/fig_em_cb_04_00_q.pdf>])
 (./em_electromagnetism/circuit-basics/06_capacitor-internal-2/ps_em_cb_06_q.tex
-<em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig/fig_em_cb_06/fi
-g_em_cb_06_00.pdf, id=259, 257.10353pt x 168.09901pt>
-File: em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig/fig_em_cb_
-06/fig_em_cb_06_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig/fig_em_cb_0
-6/fig_em_cb_06_00.pdf>
+<em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig_em_cb_06/fig_em
+_cb_06_00_q.pdf, id=259, 257.10353pt x 168.09901pt>
+File: em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig_em_cb_06/f
+ig_em_cb_06_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/06_capacitor-internal-2/fig_em_cb_06/fi
+g_em_cb_06_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/06_capacitor-intern
-al-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf  used on input line 38.
+al-2/fig_em_cb_06/fig_em_cb_06_00_q.pdf  used on input line 38.
 (luatex.def)             Requested size: 257.10289pt x 168.09859pt.
 )
 (./em_electromagnetism/circuit-basics/07_capacitor-internal-3/ps_em_cb_07_q.tex
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 20.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 20.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
-[20<./em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig/fig_em_cb_0
-5/fig_em_cb_05_00.pdf><./em_electromagnetism/circuit-basics/06_capacitor-interna
-l-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf>]
-<em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig/fig_em_cb_07/fi
-g_em_cb_07_00.pdf, id=303, 253.41174pt x 166.95976pt>
-File: em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig/fig_em_cb_
-07/fig_em_cb_07_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig/fig_em_cb_0
-7/fig_em_cb_07_00.pdf>
+[20<./em_electromagnetism/circuit-basics/05_capacitor-internal-1/fig_em_cb_05/fi
+g_em_cb_05_00_q.pdf><./em_electromagnetism/circuit-basics/06_capacitor-internal-
+2/fig_em_cb_06/fig_em_cb_06_00_q.pdf>]
+<em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig_em_cb_07/fig_em
+_cb_07_00_q.pdf, id=303, 253.41174pt x 166.95976pt>
+File: em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig_em_cb_07/f
+ig_em_cb_07_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig_em_cb_07/fi
+g_em_cb_07_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/07_capacitor-intern
-al-3/fig/fig_em_cb_07/fig_em_cb_07_00.pdf  used on input line 35.
+al-3/fig_em_cb_07/fig_em_cb_07_00_q.pdf  used on input line 35.
 (luatex.def)             Requested size: 253.41112pt x 166.95934pt.
 )
 (./em_electromagnetism/circuit-basics/08_add-battery-resistor/ps_em_cb_08_q.tex
-<em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_08/fi
-g_em_cb_08_01.pdf, id=304, 229.48134pt x 150.37279pt>
-File: em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_
-08/fig_em_cb_08_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_0
-8/fig_em_cb_08_01.pdf>
+<em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/fig_em
+_cb_08_01_q.pdf, id=304, 229.48134pt x 150.37279pt>
+File: em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/f
+ig_em_cb_08_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/fi
+g_em_cb_08_01_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/08_add-battery-resi
-stor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf  used on input line 15.
+stor/fig_em_cb_08/fig_em_cb_08_01_q.pdf  used on input line 15.
 (luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_08/fi
-g_em_cb_08_02.pdf, id=305, 229.48134pt x 158.90868pt>
-File: em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_
-08/fig_em_cb_08_02.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/08_add-battery-resistor/fig/fig_em_cb_0
-8/fig_em_cb_08_02.pdf>
+<em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/fig_em
+_cb_08_02_q.pdf, id=305, 229.48134pt x 158.90868pt>
+File: em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/f
+ig_em_cb_08_02_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/08_add-battery-resistor/fig_em_cb_08/fi
+g_em_cb_08_02_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/08_add-battery-resi
-stor/fig/fig_em_cb_08/fig_em_cb_08_02.pdf  used on input line 25.
+stor/fig_em_cb_08/fig_em_cb_08_02_q.pdf  used on input line 25.
 (luatex.def)             Requested size: 229.48077pt x 158.90828pt.
 )
 (./em_electromagnetism/circuit-basics/09_add-battery-capacitor/ps_em_cb_09_q.te
 x
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 27.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 27.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [21<./em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig/fig_em_cb_
-07/fig_em_cb_07_00.pdf><./em_electromagnetism/circuit-basics/08_add-battery-resi
-stor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf><./em_electromagnetism/circuit-basics/
-08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_02.pdf>]
-<em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig/fig_em_cb_09/f
-ig_em_cb_09_00.pdf, id=369, 246.21184pt x 133.49875pt>
-File: em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig/fig_em_cb
-_09/fig_em_cb_09_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig/fig_em_cb_
-09/fig_em_cb_09_00.pdf>
+ [21<./em_electromagnetism/circuit-basics/07_capacitor-internal-3/fig_em_cb_07/f
+ig_em_cb_07_00_q.pdf><./em_electromagnetism/circuit-basics/08_add-battery-resist
+or/fig_em_cb_08/fig_em_cb_08_01_q.pdf><./em_electromagnetism/circuit-basics/08_a
+dd-battery-resistor/fig_em_cb_08/fig_em_cb_08_02_q.pdf>]
+<em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig_em_cb_09/fig_e
+m_cb_09_00_q.pdf, id=369, 246.21184pt x 133.49875pt>
+File: em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig_em_cb_09/
+fig_em_cb_09_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig_em_cb_09/f
+ig_em_cb_09_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/09_add-battery-capa
-citor/fig/fig_em_cb_09/fig_em_cb_09_00.pdf  used on input line 32.
+citor/fig_em_cb_09/fig_em_cb_09_00_q.pdf  used on input line 32.
 (luatex.def)             Requested size: 246.21123pt x 133.4984pt.
 )
 (./em_electromagnetism/circuit-basics/10_add-capacitor-discharge/ps_em_cb_10_q.
 tex
-<em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig/fig_em_cb_10
-/fig_em_cb_10_00.pdf, id=370, 219.69377pt x 113.95273pt>
-File: em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig/fig_em_
-cb_10/fig_em_cb_10_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig/fig_em_c
-b_10/fig_em_cb_10_00.pdf>
+<em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig_em_cb_10/fig
+_em_cb_10_00_q.pdf, id=370, 219.69377pt x 113.95273pt>
+File: em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig_em_cb_1
+0/fig_em_cb_10_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/10_add-capacitor-discharge/fig_em_cb_10
+/fig_em_cb_10_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/10_add-capacitor-di
-scharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf  used on input line 21.
+scharge/fig_em_cb_10/fig_em_cb_10_00_q.pdf  used on input line 21.
 (luatex.def)             Requested size: 219.69324pt x 113.95244pt.
 )
 (./em_electromagnetism/circuit-basics/11_add-three-plates/ps_em_cb_11_q.tex
-<em_electromagnetism/circuit-basics/11_add-three-plates/fig/fig_em_cb_11/fig_em
-_cb_11_00.pdf, id=371, 253.41174pt x 166.95976pt>
-File: em_electromagnetism/circuit-basics/11_add-three-plates/fig/fig_em_cb_11/f
-ig_em_cb_11_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/11_add-three-plates/fig/fig_em_cb_11/fi
-g_em_cb_11_00.pdf>
+<em_electromagnetism/circuit-basics/11_add-three-plates/fig_em_cb_11/fig_em_cb_
+11_00_q.pdf, id=371, 253.41174pt x 166.95976pt>
+File: em_electromagnetism/circuit-basics/11_add-three-plates/fig_em_cb_11/fig_e
+m_cb_11_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/11_add-three-plates/fig_em_cb_11/fig_em
+_cb_11_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/11_add-three-plates
-/fig/fig_em_cb_11/fig_em_cb_11_00.pdf  used on input line 32.
+/fig_em_cb_11/fig_em_cb_11_00_q.pdf  used on input line 32.
 (luatex.def)             Requested size: 253.41112pt x 166.95934pt.
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 35.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 35.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
-[22<./em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig/fig_em_cb_
-09/fig_em_cb_09_00.pdf><./em_electromagnetism/circuit-basics/10_add-capacitor-di
-scharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf>])
+[22<./em_electromagnetism/circuit-basics/09_add-battery-capacitor/fig_em_cb_09/f
+ig_em_cb_09_00_q.pdf><./em_electromagnetism/circuit-basics/10_add-capacitor-disc
+harge/fig_em_cb_10/fig_em_cb_10_00_q.pdf>])
 (./em_electromagnetism/circuit-basics/12_add-four-plates/ps_em_cb_12_q.tex
-<em_electromagnetism/circuit-basics/12_add-four-plates/fig/fig_em_cb_12/fig_em_
-cb_12_00.pdf, id=403, 257.10353pt x 168.09901pt>
-File: em_electromagnetism/circuit-basics/12_add-four-plates/fig/fig_em_cb_12/fi
-g_em_cb_12_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-basics/12_add-four-plates/fig/fig_em_cb_12/fig
-_em_cb_12_00.pdf>
+<em_electromagnetism/circuit-basics/12_add-four-plates/fig_em_cb_12/fig_em_cb_1
+2_00_q.pdf, id=403, 257.10353pt x 168.09901pt>
+File: em_electromagnetism/circuit-basics/12_add-four-plates/fig_em_cb_12/fig_em
+_cb_12_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-basics/12_add-four-plates/fig_em_cb_12/fig_em_
+cb_12_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-basics/12_add-four-plates/
-fig/fig_em_cb_12/fig_em_cb_12_00.pdf  used on input line 38.
+fig_em_cb_12/fig_em_cb_12_00_q.pdf  used on input line 38.
 (luatex.def)             Requested size: 257.10289pt x 168.09859pt.
 ))
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 12.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 12.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
-[23<./em_electromagnetism/circuit-basics/11_add-three-plates/fig/fig_em_cb_11/fi
-g_em_cb_11_00.pdf><./em_electromagnetism/circuit-basics/12_add-four-plates/fig/f
-ig_em_cb_12/fig_em_cb_12_00.pdf>]
+[23<./em_electromagnetism/circuit-basics/11_add-three-plates/fig_em_cb_11/fig_em
+_cb_11_00_q.pdf><./em_electromagnetism/circuit-basics/12_add-four-plates/fig_em_
+cb_12/fig_em_cb_12_00_q.pdf>]
 (./em_electromagnetism/circuit-extent/ps_em_cx_q.tex
 (./em_electromagnetism/circuit-extent/01_metal-electron-theory/ps_em_cx_01_q.te
 x)
 (./em_electromagnetism/circuit-extent/02_non-ohmic-resistor/ps_em_cx_02_q.tex
-<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/fig_
-em_cx_02_01.pdf, id=452, 259.29472pt x 192.9087pt>
-File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02
-/fig_em_cx_02_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/
-fig_em_cx_02_01.pdf>
+LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/b/n' will be
+
+(Font)              scaled to size 9.19998pt on input line 11.
+LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/b/n' will be
+
+(Font)              scaled to size 9.19998pt on input line 11.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_02_01' on page 24 undefined on i
+nput line 11.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_02_02' on page 24 undefined on i
+nput line 19.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_02_03' on page 24 undefined on i
+nput line 22.
+
+<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_em_c
+x_02_01_q.pdf, id=452, 259.29472pt x 192.9087pt>
+File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig
+_em_cx_02_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_
+em_cx_02_01_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/02_non-ohmic-resist
-or/fig/fig_em_cx_02/fig_em_cx_02_01.pdf  used on input line 31.
+or/fig_em_cx_02/fig_em_cx_02_01_q.pdf  used on input line 31.
 (luatex.def)             Requested size: 259.29408pt x 192.90823pt.
-<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/fig_
-em_cx_02_02.pdf, id=453, 201.56906pt x 125.05821pt>
-File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02
-/fig_em_cx_02_02.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/
-fig_em_cx_02_02.pdf>
+<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_em_c
+x_02_02_q.pdf, id=453, 201.56906pt x 125.05821pt>
+File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig
+_em_cx_02_02_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_
+em_cx_02_02_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/02_non-ohmic-resist
-or/fig/fig_em_cx_02/fig_em_cx_02_02.pdf  used on input line 38.
+or/fig_em_cx_02/fig_em_cx_02_02_q.pdf  used on input line 38.
 (luatex.def)             Requested size: 201.56856pt x 125.05789pt.
-<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/fig_
-em_cx_02_03.pdf, id=454, 201.56906pt x 142.12999pt>
-File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02
-/fig_em_cx_02_03.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/
-fig_em_cx_02_03.pdf>
+<em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_em_c
+x_02_03_q.pdf, id=454, 201.56906pt x 142.12999pt>
+File: em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig
+_em_cx_02_03_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_
+em_cx_02_03_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/02_non-ohmic-resist
-or/fig/fig_em_cx_02/fig_em_cx_02_03.pdf  used on input line 45.
+or/fig_em_cx_02/fig_em_cx_02_03_q.pdf  used on input line 45.
 (luatex.def)             Requested size: 201.56856pt x 142.12964pt.
 )
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 21.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 21.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
+ [24
 
-[24
-
-<./em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig/fig_em_cx_02/fig
-_em_cx_02_01.pdf><./em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig
-/fig_em_cx_02/fig_em_cx_02_02.pdf><./em_electromagnetism/circuit-extent/02_non-o
-hmic-resistor/fig/fig_em_cx_02/fig_em_cx_02_03.pdf>]
+<./em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_em_cx_02/fig_em_
+cx_02_01_q.pdf><./em_electromagnetism/circuit-extent/02_non-ohmic-resistor/fig_e
+m_cx_02/fig_em_cx_02_02_q.pdf><./em_electromagnetism/circuit-extent/02_non-ohmic
+-resistor/fig_em_cx_02/fig_em_cx_02_03_q.pdf>]
 (./em_electromagnetism/circuit-extent/03_equivalent-resistance/ps_em_cx_03_q.te
 x
-<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/f
-ig_em_cx_03_01.pdf, id=526, 229.48134pt x 110.53897pt>
-File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx
-_03/fig_em_cx_03_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_01.pdf>
+<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_e
+m_cx_03_01_q.pdf, id=527, 229.48134pt x 110.53897pt>
+File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/
+fig_em_cx_03_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_01_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_01.pdf  used on input line 13.
+tance/fig_em_cx_03/fig_em_cx_03_01_q.pdf  used on input line 13.
 (luatex.def)             Requested size: 229.48077pt x 110.53868pt.
-<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/f
-ig_em_cx_03_02.pdf, id=527, 229.48134pt x 138.99127pt>
-File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx
-_03/fig_em_cx_03_02.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_02.pdf>
+<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_e
+m_cx_03_02_q.pdf, id=528, 229.48134pt x 138.99127pt>
+File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/
+fig_em_cx_03_02_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_02_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_02.pdf  used on input line 22.
+tance/fig_em_cx_03/fig_em_cx_03_02_q.pdf  used on input line 22.
 (luatex.def)             Requested size: 229.48077pt x 138.99092pt.
-<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/f
-ig_em_cx_03_03.pdf, id=528, 229.48134pt x 150.37279pt>
-File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx
-_03/fig_em_cx_03_03.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_03.pdf>
+<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_e
+m_cx_03_03_q.pdf, id=529, 229.48134pt x 150.37279pt>
+File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/
+fig_em_cx_03_03_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_03_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_03.pdf  used on input line 31.
+tance/fig_em_cx_03/fig_em_cx_03_03_q.pdf  used on input line 31.
 (luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/f
-ig_em_cx_03_04.pdf, id=529, 232.32697pt x 113.55424pt>
-File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx
-_03/fig_em_cx_03_04.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_04.pdf>
+<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_e
+m_cx_03_04_q.pdf, id=530, 232.32697pt x 113.55424pt>
+File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/
+fig_em_cx_03_04_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_04_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_04.pdf  used on input line 42.
+tance/fig_em_cx_03/fig_em_cx_03_04_q.pdf  used on input line 42.
 (luatex.def)             Requested size: 232.32639pt x 113.55396pt.
-<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/f
-ig_em_cx_03_05.pdf, id=530, 189.78705pt x 189.16772pt>
-File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx
-_03/fig_em_cx_03_05.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_05.pdf>
+<em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_e
+m_cx_03_05_q.pdf, id=531, 189.78705pt x 189.16772pt>
+File: em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/
+fig_em_cx_03_05_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_05_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_05.pdf  used on input line 51.
+tance/fig_em_cx_03/fig_em_cx_03_05_q.pdf  used on input line 51.
 (luatex.def)             Requested size: 189.78658pt x 189.16725pt.
 )
 (./em_electromagnetism/circuit-extent/04_infinite-switching-1/ps_em_cx_04_q.tex
-<em_electromagnetism/circuit-extent/04_infinite-switching-1/fig/fig_em_cx_04/fi
-g_em_cx_04_00.pdf, id=531, 245.31148pt x 126.9262pt>
-File: em_electromagnetism/circuit-extent/04_infinite-switching-1/fig/fig_em_cx_
-04/fig_em_cx_04_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/04_infinite-switching-1/fig/fig_em_cx_0
-4/fig_em_cx_04_00.pdf>
+<em_electromagnetism/circuit-extent/04_infinite-switching-1/fig_em_cx_04/fig_em
+_cx_04_00_q.pdf, id=532, 245.31148pt x 126.9262pt>
+File: em_electromagnetism/circuit-extent/04_infinite-switching-1/fig_em_cx_04/f
+ig_em_cx_04_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/04_infinite-switching-1/fig_em_cx_04/fi
+g_em_cx_04_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/04_infinite-switchi
-ng-1/fig/fig_em_cx_04/fig_em_cx_04_00.pdf  used on input line 29.
+ng-1/fig_em_cx_04/fig_em_cx_04_00_q.pdf  used on input line 29.
 (luatex.def)             Requested size: 245.31087pt x 126.92587pt.
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 32.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 32.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
-[25<./em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_01.pdf><./em_electromagnetism/circuit-extent/03_equivalent-resis
-tance/fig/fig_em_cx_03/fig_em_cx_03_02.pdf><./em_electromagnetism/circuit-extent
-/03_equivalent-resistance/fig/fig_em_cx_03/fig_em_cx_03_03.pdf><./em_electromagn
-etism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_03/fig_em_cx_03_04.p
-df><./em_electromagnetism/circuit-extent/03_equivalent-resistance/fig/fig_em_cx_
-03/fig_em_cx_03_05.pdf>])
+[25<./em_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/f
+ig_em_cx_03_01_q.pdf><./em_electromagnetism/circuit-extent/03_equivalent-resista
+nce/fig_em_cx_03/fig_em_cx_03_02_q.pdf><./em_electromagnetism/circuit-extent/03_
+equivalent-resistance/fig_em_cx_03/fig_em_cx_03_03_q.pdf><./em_electromagnetism/
+circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_em_cx_03_04_q.pdf><./em
+_electromagnetism/circuit-extent/03_equivalent-resistance/fig_em_cx_03/fig_em_cx
+_03_05_q.pdf>])
 (./em_electromagnetism/circuit-extent/05_infinite-switching-2/ps_em_cx_05_q.tex
-<em_electromagnetism/circuit-extent/05_infinite-switching-2/fig/fig_em_cx_05/fi
-g_em_cx_05_00.pdf, id=617, 246.21184pt x 133.49875pt>
-File: em_electromagnetism/circuit-extent/05_infinite-switching-2/fig/fig_em_cx_
-05/fig_em_cx_05_00.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/05_infinite-switching-2/fig/fig_em_cx_0
-5/fig_em_cx_05_00.pdf>
+<em_electromagnetism/circuit-extent/05_infinite-switching-2/fig_em_cx_05/fig_em
+_cx_05_00_q.pdf, id=618, 246.21184pt x 133.49875pt>
+File: em_electromagnetism/circuit-extent/05_infinite-switching-2/fig_em_cx_05/f
+ig_em_cx_05_00_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/05_infinite-switching-2/fig_em_cx_05/fi
+g_em_cx_05_00_q.pdf>
 Package luatex.def Info: em_electromagnetism/circuit-extent/05_infinite-switchi
-ng-2/fig/fig_em_cx_05/fig_em_cx_05_00.pdf  used on input line 34.
+ng-2/fig_em_cx_05/fig_em_cx_05_00_q.pdf  used on input line 34.
 (luatex.def)             Requested size: 246.21123pt x 133.4984pt.
 ) (./em_electromagnetism/circuit-extent/06_dielectric/ps_em_cx_06_q.tex
-<em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_cx_06
-_01.pdf, id=618, 173.51625pt x 47.1863pt>
-File: em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_
-cx_06_01.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_c
-x_06_01.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig/f
-ig_em_cx_06/fig_em_cx_06_01.pdf  used on input line 32.
-(luatex.def)             Requested size: 173.51581pt x 47.18617pt.
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 33.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
-[26<./em_electromagnetism/circuit-extent/04_infinite-switching-1/fig/fig_em_cx_0
-4/fig_em_cx_04_00.pdf><./em_electromagnetism/circuit-extent/05_infinite-switchin
-g-2/fig/fig_em_cx_05/fig_em_cx_05_00.pdf>]
-<em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_cx_06
-_02.pdf, id=651, 173.51625pt x 47.1863pt>
-File: em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_
-cx_06_02.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_c
-x_06_02.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig/f
-ig_em_cx_06/fig_em_cx_06_02.pdf  used on input line 39.
+LaTeX Warning: Reference `fig/q_circuit-extent_06_01' on page 26 undefined on i
+nput line 14.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_06_02' on page 26 undefined on i
+nput line 15.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_06_01' on page 26 undefined on i
+nput line 18.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_06_03' on page 26 undefined on i
+nput line 19.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_06_01' on page 26 undefined on i
+nput line 22.
+
+
+LaTeX Warning: Reference `fig/q_circuit-extent_06_04' on page 26 undefined on i
+nput line 23.
+
+<em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06_01_
+q.pdf, id=619, 173.51625pt x 47.1863pt>
+File: em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_0
+6_01_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06
+_01_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig_e
+m_cx_06/fig_em_cx_06_01_q.pdf  used on input line 32.
 (luatex.def)             Requested size: 173.51581pt x 47.18617pt.
-<em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_cx_06
-_03.pdf, id=652, 173.51625pt x 47.1863pt>
-File: em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_
-cx_06_03.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_c
-x_06_03.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig/f
-ig_em_cx_06/fig_em_cx_06_03.pdf  used on input line 46.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 33.
+(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
+[26<./em_electromagnetism/circuit-extent/04_infinite-switching-1/fig_em_cx_04/fi
+g_em_cx_04_00_q.pdf><./em_electromagnetism/circuit-extent/05_infinite-switching-
+2/fig_em_cx_05/fig_em_cx_05_00_q.pdf>]
+<em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06_02_
+q.pdf, id=652, 173.51625pt x 47.1863pt>
+File: em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_0
+6_02_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06
+_02_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig_e
+m_cx_06/fig_em_cx_06_02_q.pdf  used on input line 39.
 (luatex.def)             Requested size: 173.51581pt x 47.18617pt.
-<em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_cx_06
-_04.pdf, id=653, 173.51625pt x 47.1863pt>
-File: em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_
-cx_06_04.pdf Graphic file (type pdf)
-<use em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_c
-x_06_04.pdf>
-Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig/f
-ig_em_cx_06/fig_em_cx_06_04.pdf  used on input line 53.
+<em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06_03_
+q.pdf, id=653, 173.51625pt x 47.1863pt>
+File: em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_0
+6_03_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06
+_03_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig_e
+m_cx_06/fig_em_cx_06_03_q.pdf  used on input line 46.
+(luatex.def)             Requested size: 173.51581pt x 47.18617pt.
+<em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06_04_
+q.pdf, id=654, 173.51625pt x 47.1863pt>
+File: em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_0
+6_04_q.pdf Graphic file (type pdf)
+<use em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06
+_04_q.pdf>
+Package luatex.def Info: em_electromagnetism/circuit-extent/06_dielectric/fig_e
+m_cx_06/fig_em_cx_06_04_q.pdf  used on input line 53.
 (luatex.def)             Requested size: 173.51581pt x 47.18617pt.
 )
 (./em_electromagnetism/circuit-extent/07_add-free-electrons/ps_em_cx_07_q.tex)
@@ -2498,99 +2514,90 @@ ig_em_cx_06/fig_em_cx_06_04.pdf  used on input line 53.
 (./em_electromagnetism/circuit-extent/09_add-equivalent-resistance/ps_em_cx_09_
 q.tex) (./em_electromagnetism/circuit-extent/10_add-switching/ps_em_cx_10_q.tex
 ) (./em_electromagnetism/circuit-extent/11_add-dielectric/ps_em_cx_11_q.tex))
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 16.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 16.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
-[27<./em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06/fig_em_c
-x_06_01.pdf><./em_electromagnetism/circuit-extent/06_dielectric/fig/fig_em_cx_06
-/fig_em_cx_06_02.pdf><./em_electromagnetism/circuit-extent/06_dielectric/fig/fig
-_em_cx_06/fig_em_cx_06_03.pdf><./em_electromagnetism/circuit-extent/06_dielectri
-c/fig/fig_em_cx_06/fig_em_cx_06_04.pdf>]
+[27<./em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_em_cx_06
+_01_q.pdf><./em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_06/fig_e
+m_cx_06_02_q.pdf><./em_electromagnetism/circuit-extent/06_dielectric/fig_em_cx_0
+6/fig_em_cx_06_03_q.pdf><./em_electromagnetism/circuit-extent/06_dielectric/fig_
+em_cx_06/fig_em_cx_06_04_q.pdf>]
 (./em_electromagnetism/circuit-energy/ps_em_ce_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 20.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 20.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [28
 
 
 ]
 (./em_electromagnetism/magnetic-field/ps_em_mf_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 24.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 24.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [29
 
 
 ]
 (./em_electromagnetism/emf/ps_em_eg_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 28.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 28.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [30
 
 
 ]
 (./em_electromagnetism/emi/ps_em_ei_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 32.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 32.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [31
 
 
 ]
 (./em_electromagnetism/coil/ps_em_co_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 36.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 36.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [32
 
 
 ]
 (./em_electromagnetism/ac-circuit/ps_em_ac_q.tex))
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 111.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 111.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [33
 
 
 ] (./wa_wave/ps_wa_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 115.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 115.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 [34
 
 
 ] (./mp_modernphysics/ps_mp_q.tex)
-File: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (type p
-df)
-<use ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf  
-used on input line 119.
+File: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf)
+<use ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  used 
+on input line 119.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [35
 
@@ -2600,41 +2607,49 @@ used on input line 119.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 46826 strings out of 476076
+ 46829 strings out of 476076
  244625,1977958 words of node,token memory allocated
  2683 words of node memory still in use:
    11 hlist, 2 vlist, 6 rule, 2 glue, 4 kern, 35 penalty, 2 glyph, 900 attribute
 , 49 glue_spec, 91 attribute_list, 2 write, 15 user_defined nodes
    avail lists: 1:18,2:77242,3:1227,4:496,5:631,6:58,7:6595,8:25,9:2685,10:30
- 66648 multiletter control sequences out of 65536+600000
- 100 fonts using 144909463 bytes
+ 66651 multiletter control sequences out of 65536+600000
+ 101 fonts using 148692511 bytes
  119i,10n,127p,2015b,1126s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/te
-xlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf>{c:/texlive/
-2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fon
-ts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-math
-it.enc}<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.ot
-f><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/te
-xlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Bold.otf><
-c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texliv
-e/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2025
-/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Regular.otf><c:/texl
-ive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/20
-25/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2025/te
-xmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive
-/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/texmf-dist/fo
-nts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/
-lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive
-/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fo
-nts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on ps_q.pdf (35 pages, 932487 bytes).
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2025/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/20
+25/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf>{c:/texlive/2025/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/d
+vips/lm/lm-rm.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<
+c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/te
+xlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/20
+25/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Bold.otf><c:/texli
+ve/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2025/t
+exmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2025/texmf-d
+ist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Regular.otf><c:/texlive/2025
+/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2025/texmf
+-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2025/texmf-dist
+/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type
+1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pf
+b><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type
+1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb>
+Output written on ps_q.pdf (35 pages, 842542 bytes).
 
-PDF statistics: 791 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
+PDF statistics: 798 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

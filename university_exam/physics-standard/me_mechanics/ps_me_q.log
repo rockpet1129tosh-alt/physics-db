@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  28 FEB 2026 07:24
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  1 MAR 2026 07:43
  restricted system commands enabled.
 **ps_me_q.tex
 (./ps_me_q.tex
@@ -1849,109 +1849,109 @@ LaTeX Font Info:    Trying loading font information for U+msb on input line 10.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-<../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf, id=4, 275.64682pt x 7
-4.71413pt>
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 8.
+<../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf, id=4, 275.64682pt x 74.714
+13pt>
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 8.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-<../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>] (./time-tracking/ps_
-me_tt_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 12.
+<../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>] (./time-tracking/ps_me_tt
+_q.tex)
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 12.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [2
 
 
 ]
 (./mechanical-energy/ps_me_en_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 16.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 16.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [3
 
 
 ] (./circular-motion/ps_me_cm_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 20.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 20.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
 [4
 
 
 ] (./multibody/ps_me_mb_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 24.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 24.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [5
 
 
 ] (./collision/ps_me_cl_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 28.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 28.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [6
 
 
 ]
 (./celestial-mechanics/ps_me_ct_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 32.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 32.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [7
 
 
 ]
 (./moving-coordinate-system/ps_me_ms_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 36.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 36.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [8
 
 
 ] (./rigid-body/ps_me_rb_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 40.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 40.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
 [9
 
 
 ] (./cog/ps_me_cg_q.tex)
-File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (typ
-e pdf)
-<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pd
-f  used on input line 44.
+File: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf Graphic file (type pdf
+)
+<use ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf>
+Package luatex.def Info: ../../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf  us
+ed on input line 44.
 (luatex.def)             Requested size: 73.47926pt x 19.91692pt.
  [10
 

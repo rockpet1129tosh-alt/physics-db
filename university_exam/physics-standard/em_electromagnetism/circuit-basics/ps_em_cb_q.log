@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  28 FEB 2026 07:36
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  1 MAR 2026 07:48
  restricted system commands enabled.
 **ps_em_cb_q.tex
 (./ps_em_cb_q.tex
@@ -1847,244 +1847,31 @@ LaTeX Font Info:    Trying loading font information for U+msb on input line 9.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_01.pdf, id=4, 229.48134pt x 110.538
-97pt>
-File: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_01.pdf Graphic file (type pdf)
 
-<use 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_01.pdf>
-Package luatex.def Info: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_01.pdf  use
-d on input line 14.
-(luatex.def)             Requested size: 229.48077pt x 110.53868pt.
-<01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_02.pdf, id=5, 229.48134pt x 150.372
-79pt>
-File: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_02.pdf Graphic file (type pdf)
+LaTeX Warning: File `01_kirchhoff/fig_em_cb_01/fig_em_cb_01_01.pdf' not found o
+n input line 14.
 
-<use 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_02.pdf>
-Package luatex.def Info: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_02.pdf  use
-d on input line 24.
-(luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_03.pdf, id=6, 229.48134pt x 150.372
-79pt>
-File: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_03.pdf Graphic file (type pdf)
 
-<use 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_03.pdf>
-Package luatex.def Info: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_03.pdf  use
-d on input line 34.
-(luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_04.pdf, id=7, 229.48134pt x 158.908
-68pt>
-File: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_04.pdf Graphic file (type pdf)
+! Package luatex.def Error: File `01_kirchhoff/fig_em_cb_01/fig_em_cb_01_01.pdf
+' not found: using draft setting.
 
-<use 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_04.pdf>
-Package luatex.def Info: 01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_04.pdf  use
-d on input line 45.
-(luatex.def)             Requested size: 229.48077pt x 158.90828pt.
-)
-(./02_charge-conservation-1/ps_em_cb_02_q.tex
-<02_charge-conservation-1/fig/fig_em_cb_02/fig_em_cb_02_00.pdf, id=8, 245.31148
-pt x 126.9262pt>
-File: 02_charge-conservation-1/fig/fig_em_cb_02/fig_em_cb_02_00.pdf Graphic fil
-e (type pdf)
-<use 02_charge-conservation-1/fig/fig_em_cb_02/fig_em_cb_02_00.pdf>
-Package luatex.def Info: 02_charge-conservation-1/fig/fig_em_cb_02/fig_em_cb_02
-_00.pdf  used on input line 28.
-(luatex.def)             Requested size: 245.31087pt x 126.92587pt.
-)
-(./03_charge-conservation-2/ps_em_cb_03_q.tex
-<../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf, id=9, 275.64682pt 
-x 74.71413pt>
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 10.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-<./01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_01.pdf><./01_kirchhoff/fig/fig_em_
-cb_01/fig_em_cb_01_02.pdf><./01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_03.pdf><
-./01_kirchhoff/fig/fig_em_cb_01/fig_em_cb_01_04.pdf><./02_charge-conservation-1/
-fig/fig_em_cb_02/fig_em_cb_02_00.pdf><../../../../figures/logo_miyoshi_1/logo_mi
-yoshi_1_tikz.pdf>]
-<03_charge-conservation-2/fig/fig_em_cb_03/fig_em_cb_03_00.pdf, id=121, 245.311
-48pt x 200.90358pt>
-File: 03_charge-conservation-2/fig/fig_em_cb_03/fig_em_cb_03_00.pdf Graphic fil
-e (type pdf)
-<use 03_charge-conservation-2/fig/fig_em_cb_03/fig_em_cb_03_00.pdf>
-Package luatex.def Info: 03_charge-conservation-2/fig/fig_em_cb_03/fig_em_cb_03
-_00.pdf  used on input line 31.
-(luatex.def)             Requested size: 245.31087pt x 200.90308pt.
-)
-(./04_capacitor-charging/ps_em_cb_04_q.tex
-<04_capacitor-charging/fig/fig_em_cb_04/fig_em_cb_04_00.pdf, id=122, 245.31148p
-t x 113.95172pt>
-File: 04_capacitor-charging/fig/fig_em_cb_04/fig_em_cb_04_00.pdf Graphic file (
-type pdf)
-<use 04_capacitor-charging/fig/fig_em_cb_04/fig_em_cb_04_00.pdf>
-Package luatex.def Info: 04_capacitor-charging/fig/fig_em_cb_04/fig_em_cb_04_00
-.pdf  used on input line 32.
-(luatex.def)             Requested size: 245.31087pt x 113.95143pt.
-)
-(./05_capacitor-internal-1/ps_em_cb_05_q.tex
-<05_capacitor-internal-1/fig/fig_em_cb_05/fig_em_cb_05_00.pdf, id=123, 164.2496
-3pt x 168.97328pt>
-File: 05_capacitor-internal-1/fig/fig_em_cb_05/fig_em_cb_05_00.pdf Graphic file
- (type pdf)
-<use 05_capacitor-internal-1/fig/fig_em_cb_05/fig_em_cb_05_00.pdf>
-Package luatex.def Info: 05_capacitor-internal-1/fig/fig_em_cb_05/fig_em_cb_05_
-00.pdf  used on input line 29.
-(luatex.def)             Requested size: 164.24922pt x 168.97285pt.
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 32.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [2<./03_charge-conservation-2/fig/fig_em_cb_03/fig_em_cb_03_00.pdf><./04_capaci
-tor-charging/fig/fig_em_cb_04/fig_em_cb_04_00.pdf>]) (./06_capacitor-internal-2
-/ps_em_cb_06_q.tex
-<06_capacitor-internal-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf, id=157, 257.1035
-3pt x 168.09901pt>
-File: 06_capacitor-internal-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf Graphic file
- (type pdf)
-<use 06_capacitor-internal-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf>
-Package luatex.def Info: 06_capacitor-internal-2/fig/fig_em_cb_06/fig_em_cb_06_
-00.pdf  used on input line 38.
-(luatex.def)             Requested size: 257.10289pt x 168.09859pt.
-)
-(./07_capacitor-internal-3/ps_em_cb_07_q.tex
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 20.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [3<./05_capacitor-internal-1/fig/fig_em_cb_05/fig_em_cb_05_00.pdf><./06_capacit
-or-internal-2/fig/fig_em_cb_06/fig_em_cb_06_00.pdf>]
-<07_capacitor-internal-3/fig/fig_em_cb_07/fig_em_cb_07_00.pdf, id=202, 253.4117
-4pt x 166.95976pt>
-File: 07_capacitor-internal-3/fig/fig_em_cb_07/fig_em_cb_07_00.pdf Graphic file
- (type pdf)
-<use 07_capacitor-internal-3/fig/fig_em_cb_07/fig_em_cb_07_00.pdf>
-Package luatex.def Info: 07_capacitor-internal-3/fig/fig_em_cb_07/fig_em_cb_07_
-00.pdf  used on input line 35.
-(luatex.def)             Requested size: 253.41112pt x 166.95934pt.
-) (./08_add-battery-resistor/ps_em_cb_08_q.tex
-<08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf, id=203, 229.4813
-4pt x 150.37279pt>
-File: 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf Graphic file
- (type pdf)
-<use 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf>
-Package luatex.def Info: 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_
-01.pdf  used on input line 15.
-(luatex.def)             Requested size: 229.48077pt x 150.3724pt.
-<08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_02.pdf, id=204, 229.4813
-4pt x 158.90868pt>
-File: 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_02.pdf Graphic file
- (type pdf)
-<use 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_02.pdf>
-Package luatex.def Info: 08_add-battery-resistor/fig/fig_em_cb_08/fig_em_cb_08_
-02.pdf  used on input line 25.
-(luatex.def)             Requested size: 229.48077pt x 158.90828pt.
-)
-(./09_add-battery-capacitor/ps_em_cb_09_q.tex
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 27.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [4<./07_capacitor-internal-3/fig/fig_em_cb_07/fig_em_cb_07_00.pdf><./08_add-bat
-tery-resistor/fig/fig_em_cb_08/fig_em_cb_08_01.pdf><./08_add-battery-resistor/fi
-g/fig_em_cb_08/fig_em_cb_08_02.pdf>]
-<09_add-battery-capacitor/fig/fig_em_cb_09/fig_em_cb_09_00.pdf, id=266, 246.211
-84pt x 133.49875pt>
-File: 09_add-battery-capacitor/fig/fig_em_cb_09/fig_em_cb_09_00.pdf Graphic fil
-e (type pdf)
-<use 09_add-battery-capacitor/fig/fig_em_cb_09/fig_em_cb_09_00.pdf>
-Package luatex.def Info: 09_add-battery-capacitor/fig/fig_em_cb_09/fig_em_cb_09
-_00.pdf  used on input line 32.
-(luatex.def)             Requested size: 246.21123pt x 133.4984pt.
-) (./10_add-capacitor-discharge/ps_em_cb_10_q.tex
-<10_add-capacitor-discharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf, id=267, 219.6
-9377pt x 113.95273pt>
-File: 10_add-capacitor-discharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf Graphic f
-ile (type pdf)
-<use 10_add-capacitor-discharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf>
-Package luatex.def Info: 10_add-capacitor-discharge/fig/fig_em_cb_10/fig_em_cb_
-10_00.pdf  used on input line 21.
-(luatex.def)             Requested size: 219.69324pt x 113.95244pt.
-)
-(./11_add-three-plates/ps_em_cb_11_q.tex
-<11_add-three-plates/fig/fig_em_cb_11/fig_em_cb_11_00.pdf, id=268, 253.41174pt 
-x 166.95976pt>
-File: 11_add-three-plates/fig/fig_em_cb_11/fig_em_cb_11_00.pdf Graphic file (ty
-pe pdf)
-<use 11_add-three-plates/fig/fig_em_cb_11/fig_em_cb_11_00.pdf>
-Package luatex.def Info: 11_add-three-plates/fig/fig_em_cb_11/fig_em_cb_11_00.p
-df  used on input line 32.
-(luatex.def)             Requested size: 253.41112pt x 166.95934pt.
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 35.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [5<./09_add-battery-capacitor/fig/fig_em_cb_09/fig_em_cb_09_00.pdf><./10_add-ca
-pacitor-discharge/fig/fig_em_cb_10/fig_em_cb_10_00.pdf>]) (./12_add-four-plates
-/ps_em_cb_12_q.tex
-<12_add-four-plates/fig/fig_em_cb_12/fig_em_cb_12_00.pdf, id=300, 257.10353pt x
- 168.09901pt>
-File: 12_add-four-plates/fig/fig_em_cb_12/fig_em_cb_12_00.pdf Graphic file (typ
-e pdf)
-<use 12_add-four-plates/fig/fig_em_cb_12/fig_em_cb_12_00.pdf>
-Package luatex.def Info: 12_add-four-plates/fig/fig_em_cb_12/fig_em_cb_12_00.pd
-f  used on input line 38.
-(luatex.def)             Requested size: 257.10289pt x 168.09859pt.
-)
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 77.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [6<./11_add-three-plates/fig/fig_em_cb_11/fig_em_cb_11_00.pdf><./12_add-four-pl
-ates/fig/fig_em_cb_12/fig_em_cb_12_00.pdf>] (./ps_em_cb_q.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-)
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...\subfix{fig_em_cb_01/fig_em_cb_01_01.pdf}}
+                                                  
 
 Here is how much of LuaTeX's memory you used:
- 45107 strings out of 476076
- 195704,1977958 words of node,token memory allocated
- 1285 words of node memory still in use:
-   11 hlist, 2 vlist, 6 rule, 2 glue, 4 kern, 6 penalty, 2 glyph, 297 attribute,
- 50 glue_spec, 38 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:11,2:61890,3:1068,4:410,5:570,6:43,7:5097,8:12,9:2194,10:30
- 66220 multiletter control sequences out of 65536+600000
+ 44686 strings out of 476076
+ 125244,1977958 words of node,token memory allocated
+ 16805 words of node memory still in use:
+   58 hlist, 8 vlist, 65 rule, 16 mark, 6 local_par, 1 dir, 13 math, 149 glue, 4
+0 kern, 60 penalty, 88 glyph, 5802 attribute, 67 glue_spec, 548 attribute_list, 
+1 temp, 7 if_stack, 1 shape, 3 write, 44 user_defined, 24 pdf_literal, 7 pdf_col
+orstack nodes
+   avail lists: 1:5,2:12,3:1,4:11,5:1,7:14,8:2,10:10
+ 66086 multiletter control sequences out of 65536+600000
  78 fonts using 128388343 bytes
  139i,10n,143p,2045b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<c:/texlive/2025/te
-xmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf>{c:/texlive/2025/texmf-di
-st/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/
-lm/lm-rm.enc}<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regu
-lar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMin
-cho-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-b
-old.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGot
-hic-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.
-otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c
-:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Regula
-r.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2
-025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr
-7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/20
-25/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ps_em_cb_q.pdf (6 pages, 450059 bytes).
-
-PDF statistics: 422 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  28 FEB 2026 07:37
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.8)  1 MAR 2026 08:08
  restricted system commands enabled.
 **ps_em_ef_q.tex
 (./ps_em_ef_q.tex
@@ -1699,10 +1699,9 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/titlesec/titleps.sty
 Package: titleps 2025/01/04 v2.17 Page styles
-)))
-No file ps_em_ef_q.aux.
-
+))) (./ps_em_ef_q.aux)
 \openout1 = ps_em_ef_q.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
@@ -1723,7 +1722,7 @@ LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count378
 \scratchdimen=\dimen349
@@ -1857,89 +1856,32 @@ LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
 (Font)              scaled to size 4.59999pt on input line 15.
-<04_from-potential-1/fig/fig_em_ef_04/fig_em_ef_04_03.pdf, id=4, 240.37202pt x 
-228.91121pt>
-File: 04_from-potential-1/fig/fig_em_ef_04/fig_em_ef_04_03.pdf Graphic file (ty
-pe pdf)
-<use 04_from-potential-1/fig/fig_em_ef_04/fig_em_ef_04_03.pdf>
-Package luatex.def Info: 04_from-potential-1/fig/fig_em_ef_04/fig_em_ef_04_03.p
-df  used on input line 34.
-(luatex.def)             Requested size: 240.37141pt x 228.91063pt.
-<../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf, id=5, 275.64682pt 
-x 74.71413pt>
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 37.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>]) (./05_from-poten
-tial-2/ps_em_ef_05_q.tex)
-(./06_add-point-charge/ps_em_ef_06_q.tex) (./07_add-uniform/ps_em_ef_07_q.tex
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 11.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
 
-[2<./04_from-potential-1/fig/fig_em_ef_04/fig_em_ef_04_03.pdf>])
-(./08_add-field-lines/ps_em_ef_08_q.tex)
-(./09_add-equipotential-lines/ps_em_ef_09_q.tex
-<09_add-equipotential-lines/fig/fig_em_ef_09/fig_em_ef_09_01.pdf, id=59, 240.37
-202pt x 228.91121pt>
-File: 09_add-equipotential-lines/fig/fig_em_ef_09/fig_em_ef_09_01.pdf Graphic f
-ile (type pdf)
-<use 09_add-equipotential-lines/fig/fig_em_ef_09/fig_em_ef_09_01.pdf>
-Package luatex.def Info: 09_add-equipotential-lines/fig/fig_em_ef_09/fig_em_ef_
-09_01.pdf  used on input line 21.
-(luatex.def)             Requested size: 240.37141pt x 228.91063pt.
-)
-File: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf Graphic file (
-type pdf)
-<use ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz.pdf>
-Package luatex.def Info: ../../../../figures/logo_miyoshi_1/logo_miyoshi_1_tikz
-.pdf  used on input line 62.
-(luatex.def)             Requested size: 73.47926pt x 19.91692pt.
- [3<./09_add-equipotential-lines/fig/fig_em_ef_09/fig_em_ef_09_01.pdf>] (./ps_e
-m_ef_q.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-)
+LaTeX Warning: File `04_from-potential-1/fig_em_ef_04/fig_em_ef_04_03.pdf' not 
+found on input line 34.
+
+
+! Package luatex.def Error: File `04_from-potential-1/fig_em_ef_04/fig_em_ef_04
+_03.pdf' not found: using draft setting.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...\subfix{fig_em_ef_04/fig_em_ef_04_03.pdf}}
+                                                  
 
 Here is how much of LuaTeX's memory you used:
- 44752 strings out of 476076
+ 44750 strings out of 476076
  244632,1977958 words of node,token memory allocated
- 1222 words of node memory still in use:
-   11 hlist, 2 vlist, 6 rule, 2 glue, 4 kern, 3 penalty, 2 glyph, 272 attribute,
- 50 glue_spec, 36 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:15,2:77507,3:1244,4:498,5:611,6:54,7:6593,8:25,9:2685,10:28
- 66119 multiletter control sequences out of 65536+600000
+ 195091 words of node memory still in use:
+   347 hlist, 27 vlist, 1123 rule, 40 mark, 31 local_par, 1 dir, 147 math, 1971 
+glue, 324 kern, 615 penalty, 1554 glyph, 69163 attribute, 54 glue_spec, 6207 att
+ribute_list, 1 temp, 7 if_stack, 6 write, 202 user_defined, 24 pdf_literal, 37 p
+df_colorstack nodes
+   avail lists: 1:15,2:12,3:67,4:19,5:35,6:3,7:6,8:13,10:27
+ 66105 multiletter control sequences out of 65536+600000
  80 fonts using 128651783 bytes
  139i,10n,143p,2045b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf>{c:/te
-xlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2025/texmf-di
-st/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/
-lm/lm-rm.enc}<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regu
-lar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMin
-cho-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-b
-old.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGot
-hic-Bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.
-otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c
-:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Regula
-r.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2
-025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr
-7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2
-025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on ps_em_ef_q.pdf (3 pages, 344556 bytes).
-
-PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
