@@ -72,4 +72,8 @@ scripts/
 
 ## 詳細説明
 
-詳細は [docs/STRUCTURE.md](docs/STRUCTURE.md) を参照してください。
+詳細は以下を参照：
+
+- [STRUCTURE.md](docs/STRUCTURE.md) - プロジェクト全体構成・技術仕様
+- [POLICIES.md](docs/POLICIES.md) - Git管理ポリシー・運用方針
+- [HANDOVER_2026-03-01.md](docs/HANDOVER_2026-03-01.md) - 引き継ぎメモ
