@@ -8,6 +8,15 @@
 *.toc
 *.nav
 *.snm
+*.vrb
+*.bbl
+*.blg
+*.dvi
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
 
 # PDFは配布用として必ずコミット（除外しない）
 # *.pdf
@@ -18,3 +27,10 @@ Thumbs.db
 *.swp
 *.bak
 *~
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
