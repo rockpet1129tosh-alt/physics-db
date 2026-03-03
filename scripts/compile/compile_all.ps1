@@ -1,8 +1,23 @@
-# Compile all LaTeX files with lualatex
-# Usage: .\compile_all.ps1
+param(
+    [string]$TargetDir = ""
+)
 
 $ErrorActionPreference = "Continue"
-$baseDir = $PSScriptRoot
+
+if ([string]::IsNullOrWhiteSpace($TargetDir)) {
+    $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..\..")
+    $baseDir = Join-Path $repoRoot "university_exam\physics-standard"
+}
+else {
+    $baseDir = (Resolve-Path $TargetDir).Path
+}
+
+if (-not (Test-Path $baseDir)) {
+    Write-Host "Target directory not found: $baseDir" -ForegroundColor Red
+    exit 1
+}
+
+$baseDir = (Resolve-Path $baseDir).Path
 
 # Statistics
 $totalFiles = 0
@@ -10,58 +25,93 @@ $successCount = 0
 $failedFiles = @()
 
 Write-Host "=== Starting LaTeX Compilation ===" -ForegroundColor Cyan
-Write-Host "Base Directory: $baseDir" -ForegroundColor Gray
+Write-Host "Target Directory: $baseDir" -ForegroundColor Gray
 Write-Host ""
 
-# Function to compile a single file
 function Compile-TexFile {
     param(
-        [string]$FilePath
+        [string]$FilePath,
+        [string]$DisplayName = "",
+        [string]$JobName = "",
+        [string]$InputExpression = ""
     )
-    
+
     $relativePath = $FilePath.Replace($baseDir, "").TrimStart('\')
     $dir = Split-Path $FilePath -Parent
     $fileName = Split-Path $FilePath -Leaf
-    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    
-    Write-Host "[$script:totalFiles] Compiling: $relativePath" -NoNewline
-    
+    $label = if ([string]::IsNullOrWhiteSpace($DisplayName)) { $relativePath } else { $DisplayName }
+    $pdfName = if ([string]::IsNullOrWhiteSpace($JobName)) {
+        ([System.IO.Path]::GetFileNameWithoutExtension($fileName)) + ".pdf"
+    }
+    else {
+        "$JobName.pdf"
+    }
+
+    Write-Host "[$script:totalFiles] Compiling: $label" -NoNewline
+
     Push-Location $dir
     try {
-        # Run lualatex with minimal output
-        $result = lualatex -interaction=nonstopmode -halt-on-error $fileName 2>&1 | Out-String
-        
-        # Check if PDF was created
-        if (Test-Path "${baseName}.pdf") {
+        if (-not [string]::IsNullOrWhiteSpace($InputExpression)) {
+            if ([string]::IsNullOrWhiteSpace($JobName)) {
+                $null = lualatex -interaction=nonstopmode -halt-on-error $InputExpression 2>&1 | Out-String
+            }
+            else {
+                $null = lualatex -interaction=nonstopmode -halt-on-error "-jobname=$JobName" $InputExpression 2>&1 | Out-String
+            }
+        }
+        else {
+            if ([string]::IsNullOrWhiteSpace($JobName)) {
+                $null = lualatex -interaction=nonstopmode -halt-on-error $fileName 2>&1 | Out-String
+            }
+            else {
+                $null = lualatex -interaction=nonstopmode -halt-on-error "-jobname=$JobName" $fileName 2>&1 | Out-String
+            }
+        }
+
+        if (Test-Path $pdfName) {
             Write-Host " [OK]" -ForegroundColor Green
             $script:successCount++
         }
         else {
             Write-Host " [FAIL] (PDF not generated)" -ForegroundColor Red
-            $script:failedFiles += $relativePath
+            $script:failedFiles += $label
         }
     }
     catch {
         Write-Host " [ERROR] (Exception: $($_.Exception.Message))" -ForegroundColor Red
-        $script:failedFiles += $relativePath
+        $script:failedFiles += $label
     }
     finally {
         Pop-Location
     }
-    
+
     $script:totalFiles++
 }
 
-# Step 1: Compile top-level parent files
-Write-Host "Step 1: Top-level parent files" -ForegroundColor Yellow
-Get-ChildItem -Path $baseDir -Filter "ps_*.tex" -File | ForEach-Object {
-    Compile-TexFile -FilePath $_.FullName
+# Step 1: Top-level wrappers
+Write-Host "Step 1: Top-level wrapper files" -ForegroundColor Yellow
+$topLevelFiles = @("ps_q.tex", "ps_a.tex")
+foreach ($file in $topLevelFiles) {
+    $fullPath = Join-Path $baseDir $file
+    if (Test-Path $fullPath) {
+        Compile-TexFile -FilePath $fullPath
+    }
 }
 
 Write-Host ""
 
-# Step 2: Compile domain-level parent files
-Write-Host "Step 2: Domain-level parent files" -ForegroundColor Yellow
+# Step 2: ps_master q/a build
+Write-Host "Step 2: ps_master mode builds (q/a)" -ForegroundColor Yellow
+$masterPath = Join-Path $baseDir "ps_master.tex"
+if (Test-Path $masterPath) {
+    Compile-TexFile -FilePath $masterPath -DisplayName "ps_master.tex (q mode)" -JobName "ps_master_q"
+    Compile-TexFile -FilePath $masterPath -DisplayName "ps_master.tex (a mode)" -JobName "ps_master_a" -InputExpression "\def\PSMODE{a}\input{ps_master.tex}"
+}
+
+Write-Host ""
+
+# Step 3: Domain-level parent files
+Write-Host "Step 3: Domain-level parent files" -ForegroundColor Yellow
 Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
     $_.Directory.Name -match "^(em_|me_|th_|mp_|wa_)"
 } | ForEach-Object {
@@ -70,8 +120,8 @@ Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
 
 Write-Host ""
 
-# Step 3: Compile child files (problems)
-Write-Host "Step 3: Child files (individual problems)" -ForegroundColor Yellow
+# Step 4: Child files
+Write-Host "Step 4: Child files (individual problems)" -ForegroundColor Yellow
 Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
     $_.Directory.Name -notmatch "^(em_|me_|th_|mp_|wa_)" -and
     $_.Directory.FullName -ne $baseDir
