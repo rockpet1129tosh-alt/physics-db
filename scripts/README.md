@@ -1,6 +1,6 @@
 # science-db 運用ハブ
 
-**最終更新**: 2026年3月3日
+**最終更新**: 2026年3月4日
 
 このフォルダ（`scripts/`）は **science-db の運用センター**です。  
 コンパイル、移行、ドキュメント、進捗管理を集約しています。
@@ -21,6 +21,7 @@
 
 ### 技術資料
 - [README_STRUCTURE.md](README_STRUCTURE.md) - 詳細構造ガイド（243行）
+- [docs/SUBFILES-GUIDE.md](docs/SUBFILES-GUIDE.md) - subfiles & \subfix{} 運用ガイド（450行）
 - [docs/STRUCTURE.md](docs/STRUCTURE.md) - 技術仕様（旧版・統合予定）
 - [docs/HANDOVER_2026-03-01.md](docs/HANDOVER_2026-03-01.md) - 引き継ぎメモ
 
@@ -150,6 +151,7 @@ TikZ ライブラリの使用状況を分析し、不要なライブラリを削
 | [README_STRUCTURE.md](README_STRUCTURE.md) | 構造ガイド | 243 |
 | [docs/WORKFLOW.md](docs/WORKFLOW.md) | ワークフロー規則 | 270+ |
 | [docs/POLICIES.md](docs/POLICIES.md) | 運用ポリシー | 190+ |
+| [docs/SUBFILES-GUIDE.md](docs/SUBFILES-GUIDE.md) | subfiles & \subfix{} 運用ガイド | 450+ |
 | [docs/STRUCTURE.md](docs/STRUCTURE.md) | 技術仕様（旧版） | - |
 | [docs/HANDOVER_2026-03-01.md](docs/HANDOVER_2026-03-01.md) | 引き継ぎメモ | - |
 | [PROGRESS-2026-03-03.md](PROGRESS-2026-03-03.md) | 進捗ログ | - |
