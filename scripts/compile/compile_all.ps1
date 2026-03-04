@@ -88,8 +88,8 @@ function Compile-TexFile {
     $script:totalFiles++
 }
 
-# Step 1: Top-level wrappers
-Write-Host "Step 1: Top-level wrapper files" -ForegroundColor Yellow
+# Step 1: Top-level files (ps_q.tex and ps_a.tex)
+Write-Host "Step 1: Top-level files (ps_q.tex and ps_a.tex)" -ForegroundColor Yellow
 $topLevelFiles = @("ps_q.tex", "ps_a.tex")
 foreach ($file in $topLevelFiles) {
     $fullPath = Join-Path $baseDir $file
@@ -100,18 +100,8 @@ foreach ($file in $topLevelFiles) {
 
 Write-Host ""
 
-# Step 2: ps_master q/a build
-Write-Host "Step 2: ps_master mode builds (q/a)" -ForegroundColor Yellow
-$masterPath = Join-Path $baseDir "ps_master.tex"
-if (Test-Path $masterPath) {
-    Compile-TexFile -FilePath $masterPath -DisplayName "ps_master.tex (q mode)" -JobName "ps_master_q"
-    Compile-TexFile -FilePath $masterPath -DisplayName "ps_master.tex (a mode)" -JobName "ps_master_a" -InputExpression "\def\PSMODE{a}\input{ps_master.tex}"
-}
-
-Write-Host ""
-
-# Step 3: Domain-level parent files
-Write-Host "Step 3: Domain-level parent files" -ForegroundColor Yellow
+# Step 2: Domain-level parent files
+Write-Host "Step 2: Domain-level parent files" -ForegroundColor Yellow
 Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
     $_.Directory.Name -match "^(em_|me_|th_|mp_|wa_)"
 } | ForEach-Object {
@@ -120,8 +110,8 @@ Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
 
 Write-Host ""
 
-# Step 4: Child files
-Write-Host "Step 4: Child files (individual problems)" -ForegroundColor Yellow
+# Step 3: Child files
+Write-Host "Step 3: Child files (individual problems)" -ForegroundColor Yellow
 Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
     $_.Directory.Name -notmatch "^(em_|me_|th_|mp_|wa_)" -and
     $_.Directory.FullName -ne $baseDir

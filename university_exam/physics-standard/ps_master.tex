@@ -1,71 +1,88 @@
 \documentclass[fleqn,head_space=14mm,foot_space=14mm,gutter=10mm,fore_edge=10mm,
     twocolumn,jafontscale=0.92]{jlreq}
 
-\ifdefined\PSMODE
-\else
-    \def\PSMODE{q}
-\fi
+\jlreqsetup{caption_font=\normalfont, caption_label_font=\normalfont}
 
-\ifx\PSMODE a
-    \newcommand{\mytitle}{【大学入試 物理】 標準演習〈解答編〉 ver.01}
-\else
-    \newcommand{\mytitle}{【大学入試 物理】 標準演習〈問題編〉 ver.01}
-\fi
+\setlength{\columnseprule}{0.4pt}
+\setlength{\mathindent}{2\zw}
 
-\input{ps_common_preamble.tex}
+\setlength{\lineskip}{3pt}
+\setlength{\lineskiplimit}{3pt}
 
-\ifx\PSMODE a
-    \setlist[enumerate]{label=\textsf{（\hspace{-.3pt}\arabic*\hspace{-.3pt}）}\, ,
-        topsep=2pt, itemsep=5pt, itemindent=1\zw, leftmargin=1\zw}
-\else
-    \setlist[enumerate]{label=\textsf{（\hspace{-.3pt}\arabic*\hspace{-.3pt}）}\, ,
-        topsep=2pt, itemsep=1.5pt, itemindent=1\zw, leftmargin=1\zw}
-\fi
+\setlength{\fboxsep}{5pt}
+\setlength{\fboxrule}{1.0pt}
 
-\title{\mytitle}
+\setlength{\intextsep}{4pt}
+\setlength{\floatsep}{0pt}
+\setlength{\textfloatsep}{0pt}
+\setlength{\abovecaptionskip}{0pt}
+
+\usepackage[deluxe,match,jfm_yoko=jlreq,jfm_tate=jlreqv]{luatexja-preset}
+\usepackage{luatexja-otf}
+
+\usepackage{enumitem}
+\def\threedigits#1{
+    \ifnum#1<100 0\fi 
+    \ifnum#1<10 0\fi 
+    \number#1}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta,calc}
+
+\usepackage{amsmath,amssymb}
+
+\newcommand{\myleader}[1]{\hspace{1em}\raisebox{0.5ex}{\makebox[#1]{\dotfill}}\hspace{.5em}}
+
+\usepackage[italicdiff]{physics}
+
+\usepackage{ulem}
+
+\usepackage{needspace}
+
+\usepackage{caption}
+\captionsetup{font=small,skip=2pt}
+\usepackage{graphicx}
+\newcommand{\insertmylogo}{\includegraphics[height=7mm]{../../figures/logo_miyoshi_1/logo_miyoshi_1.pdf}}
+
+\usepackage{subfiles}
+
+\frenchspacing
+
+\title{}
+\author{}
+\date{}
+
+\usepackage{titleps}
+\newpagestyle{main}{
+\sethead{{\raisebox{-4pt}{\textsf{\color{black!80}\mytitle}}}}
+        {}
+        {\textsf{\color{black!80}\raisebox{-4pt}{\S \, \sectiontitle}}}
+\setfoot{}{\raisebox{7pt}{\color{black!80}\thepage}}
+        {{\raisebox{1pt}{\insertmylogo}}}
+}
+
+\pagestyle{main}
+
+\ModifyHeading{section}{lines=2,label_format={\S},
+    format={%
+        \begin{tikzpicture}
+        \useasboundingbox (0,0) rectangle (0,0);
+        \fill[black!50] (0,-4pt) rectangle (8pt,14pt);
+        \draw[black!50,line width=1pt] (0,-4pt) -- (\linewidth,-4pt);
+        \end{tikzpicture}%
+    \hspace{1\zw}#1#2}}
+
+\ModifyHeading{subsection}{font=\sffamily\large,
+    label_format={\framebox[21pt][c]{\rmfamily\bfseries{{\Large{\arabic{subsection}}}}}}}
+
+% Default settings (for problem set mode, used when ps_q.tex references this)
+\setlist[enumerate]{label=\textsf{（\hspace{-.3pt}\arabic*\hspace{-.3pt}）}\, ,
+    topsep=2pt, itemsep=1.5pt, itemindent=1\zw, leftmargin=1\zw}
+
+\newcommand{\mytitle}{【大学入試 物理】 標準演習 ver.01}
 
 \begin{document}
-
-    \maketitle
-    
-    \clearpage
-
-    \ifx\PSMODE a
-        \subfile{me_mechanics/ps_me_a.tex}
-        
-        \clearpage
-
-        \subfile{th_thermodynamics/ps_th_a.tex}
-
-        \clearpage
-
-        \subfile{em_electromagnetism/ps_em_a.tex}
-
-        \clearpage
-
-        \subfile{wa_wave/ps_wa_a.tex}
-
-        \clearpage
-
-        \subfile{mp_modernphysics/ps_mp_a.tex}
-    \else
-        \subfile{me_mechanics/ps_me_q.tex}
-        
-        \clearpage
-
-        \subfile{th_thermodynamics/ps_th_q.tex}
-
-        \clearpage
-
-        \subfile{em_electromagnetism/ps_em_q.tex}
-
-        \clearpage
-
-        \subfile{wa_wave/ps_wa_q.tex}
-
-        \clearpage
-
-        \subfile{mp_modernphysics/ps_mp_q.tex}
-    \fi
-
+% This file serves as the master preamble definition.
+% It is not meant to be compiled directly.
+% Use ps_q.tex or ps_a.tex as entry points instead.
 \end{document}
