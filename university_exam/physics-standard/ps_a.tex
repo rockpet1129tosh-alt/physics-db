@@ -1,34 +1,21 @@
+\documentclass[fleqn,head_space=14mm,foot_space=14mm,gutter=10mm,fore_edge=10mm,
+    twocolumn,jafontscale=0.92]{jlreq}
 
-\documentclass[ps_master.tex]{subfiles}
+\input{ps_0master.tex}
 
-% Override settings for answer set mode (when compiled standalone)
-\renewcommand{\mytitle}{【大学入試 物理】 標準演習〈解答編〉 ver.01}
-\setlist[enumerate]{label=\textsf{（\hspace{-.3pt}\arabic*\hspace{-.3pt}）}\, ,
-    topsep=2pt, itemsep=5pt, itemindent=1\zw, leftmargin=1\zw}
+\newcommand{\mytitle}{【大学入試 物理】 標準演習〈解答編〉 ver.01}
 \title{\mytitle}
 
 \begin{document}
-
     \maketitle
-    
     \clearpage
-
     \subfile{me_mechanics/ps_me_a.tex}
-    
     \clearpage
-
     \subfile{th_thermodynamics/ps_th_a.tex}
-
     \clearpage
-
     \subfile{em_electromagnetism/ps_em_a.tex}
-
     \clearpage
-
     \subfile{wa_wave/ps_wa_a.tex}
-
     \clearpage
-
     \subfile{mp_modernphysics/ps_mp_a.tex}
-
 \end{document}

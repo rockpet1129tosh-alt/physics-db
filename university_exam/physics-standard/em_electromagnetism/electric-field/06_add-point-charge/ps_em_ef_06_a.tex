@@ -1,91 +1,103 @@
-﻿
-\documentclass[../../../ps_a.tex]{subfiles}
+﻿\documentclass[../../../ps_a.tex]{subfiles}
 
 \begin{document}
+    \begin{enumerate}
+        \item%
+            \myspaceb%
+            $\displaystyle%
+                \begin{myaligna}[t]
+                    E_x(x,\myspacea 0)%
+                    & = k_0 \myfracc{Q}{L^2+x^2} \cdot \myfraca{x}{\sqrt{L^2+x^2}} \\
+                    & \quad\: + k_0 \myfracc{Q}{L^2+x^2} \cdot \myfraca{x}{\sqrt{L^2+x^2}} \\
+                    & = \uwave{\myfracc{2k_0Qx}{\left(L^2+x^2\right)^{3/2}}} \;.
+                \end{myaligna}
+            $
 
-\setlength{\abovedisplayskip}{2mm}
-\setlength{\belowdisplayskip}{1mm}
+            \myspaceb%
+            $\displaystyle%
+                \begin{myaligna}
+                    E_y(x,\myspacea 0)%
+                    & = - k_0 \myfracc{Q}{L^2+x^2} \cdot \myfraca{L}{\sqrt{L^2+x^2}} \\
+                    & \quad\: + k_0 \myfracc{Q}{L^2+x^2} \cdot \myfraca{L}{\sqrt{L^2+x^2}} \\
+                    & = \uwave{0}\;. 
+                \end{myaligna}
+            $
 
-\begin{enumerate}
+            \myspaceb%
+            $\displaystyle%
+                \begin{myaligna}
+                    \phi(x,\myspacea 0)%
+                    & = k_0\myfracc{Q}{\sqrt{L^2+x^2}} + k_0\myfracc{Q}{\sqrt{L^2+x^2}} \\
+                    & = \uwave{\myfracc{2k_0Q}{\sqrt{L^2+x^2}}} \;.
+                \end{myaligna}
+            $
+        \item%
+            仕事をエネルギー収支から逆算する．
+            
+            \myspaceb%
+            $\displaystyle%
+                W = q \phi (\sqrt{3}L,\myspacea 0) - q \cdot 0 = \uwave{\myfracc{k_0 Qq}{L}}\;.
+            $
+        \item%
+            位置エネルギーが最大（運動エネルギーが最小）となる原点Oを通過できればよい．%
+            原点Oに到達したときの速さを$u$として，力学的エネルギー保存則より，
+            
+            \myspaceb%
+            $\displaystyle%
+                \myfraca{1}{2}mu^2 + q \phi(0,\myspacea 0)
+                = \myfraca{1}{2}m{v_0}^2 + q \phi(\sqrt{3}L,\myspacea 0) \;. 
+            $\\
+            よって，$\myfraca{1}{2}mu^2 = \myfraca{1}{2}m{v_0}^2
+            - \myfracc{k_0 Qq}{L} > 0$となるために，
+            
+            \myspaceb%
+            $\displaystyle%
+                \uwave{v_0 > \sqrt{\myfracc{2k_0 Qq}{mL}}} \;.
+            $
+        \item%
+            仕事をエネルギー収支から逆算する．
+            
+            \myspaceb%
+            $\displaystyle%
+                W^* = (-q) \phi (\sqrt{3}L,\myspacea 0) - (-q) \cdot 0%
+                = \uwave{- \myfracc{k_0 Qq}{L}}\;.
+            $
+        \item%
+            無限遠に到達したときの速さを$v_\infty$として，力学的エネルギー保存則より，
+            
+            \myspaceb%
+            $\displaystyle%
+                \myfraca{1}{2}m{v_\infty}^2 + (-q) \cdot 0
+                = \myfraca{1}{2}m{v_0}^2 + (-q) \phi(\sqrt{3}L,\myspacea 0) \;. 
+            $\\
+            よって，%
+            $\myfraca{1}{2}m{v_\infty}^2%
+            =\myfraca{1}{2}m{v_0}^2 - \myfracc{k_0 Qq}{L} > 0$%
+            となるために，
+            
+            \myspaceb%
+            $\displaystyle%
+                \uwave{v_0 > \sqrt{\myfracc{2k_0 Qq}{mL}}} \;.
+            $
+        \needspace{9\baselineskip}
+        \item%
+            運動方程式（$x$方向）より，
+            
+            \myspaceb%
+            $\displaystyle%
+                m a_x = (-q) E_x(x,\myspacea 0)
+                = -\frac{2k_0 Qq}{\left(L^2+x^2\right)^{3/2}} x
+            $
 
-    \item
-        $ \displaystyle \hspace{1\zw}
-        \begin{aligned}[t]
-            E_x(x,\hspace{1.2mm} 0)
-            & = k_0 \frac{Q}{L^2+x^2} \cdot \frac{x}{\sqrt{L^2+x^2}} \\
-            & \quad\: + k_0\frac{Q}{L^2+x^2} \cdot \frac{x}{\sqrt{L^2+x^2}} \\
-            & = \uwave{\frac{2k_0Qx}{\left(L^2+x^2\right)^{3/2}}} \;.
-        \end{aligned}
-        $
-        \begin{align*}
-            & E_y(x,\hspace{1.2mm} 0)
-            \begin{aligned}[t]
-                & = - k_0 \frac{Q}{L^2+x^2} \cdot \frac{L}{\sqrt{L^2+x^2}} \\
-                & \quad\: + k_0 \frac{Q}{L^2+x^2} \cdot \frac{L}{\sqrt{L^2+x^2}} \\
-                & = \uwave{0}\;. 
-            \end{aligned} \\
-            & \phi(x,\hspace{1.2mm}0) = k_0\frac{Q}{\sqrt{L^2+x^2}}
-            + k_0\frac{Q}{\sqrt{L^2+x^2}} = \uwave{\frac{2k_0Q}{\sqrt{L^2+x^2}}} \;.
-        \end{align*}
-
-    \item 仕事をエネルギー収支から逆算する．
-        \begin{align*}
-            W = q \phi (\sqrt{3}L,\hspace{1.2mm}0) - q \cdot 0 = \uwave{\frac{k_0 Qq}{L}}\;.
-        \end{align*}
-
-    \item 位置エネルギーが最大（運動エネルギーが最小）となる原点Oを通過できればよい．
-        原点Oに到達したときの速さを$u$として，力学的エネルギー保存則より，
-        %
-        \begin{align*}
-            \frac{1}{2}mu^2 + q \phi(0,\hspace{1.2mm}0)
-            = \frac{1}{2}m{v_0}^2 + q \phi(\sqrt{3}L,\hspace{1.2mm}0) \;. 
-        \end{align*}
-        %
-        よって，$ \displaystyle \frac{1}{2}mu^2 = \frac{1}{2}m{v_0}^2
-        - \frac{k_0 Qq}{L} > 0$となるために，
-        %
-        \begin{align*}
-            \uwave{v_0 > \sqrt{\frac{2k_0 Qq}{mL}}} \;.
-        \end{align*}
-
-    \item 仕事をエネルギー収支から逆算する．
-        \begin{align*}
-            W^* = (-q) \phi (\sqrt{3}L,\hspace{1.2mm}0) - (-q) \cdot 0
-            = \uwave{- \frac{k_0 Qq}{L}}\;.
-        \end{align*}
-
-    \item 無限遠に到達したときの速さを$v_\infty$として，力学的エネルギー保存則より，
-        %
-        \begin{align*}
-            \frac{1}{2}m{v_\infty}^2 + (-q) \cdot 0
-            = \frac{1}{2}m{v_0}^2 + (-q) \phi(\sqrt{3}L,\hspace{1.2mm}0) \;. 
-        \end{align*}
-        %
-        よって，
-        $ \displaystyle    
-            \frac{1}{2}m{v_\infty}^2
-            = \frac{1}{2}m{v_0}^2 - \frac{k_0 Qq}{L} > 0
-        $
-        となるために，
-        %
-        \begin{align*}
-            \uwave{v_0 > \sqrt{\frac{2k_0 Qq}{mL}}} \;.
-        \end{align*}
-
-    \item 運動方程式（$x$方向）より，
-        %
-        \begin{align*}
-            & m a_x = (-q) E_x(x,\hspace{1.2mm}0)
-            = -\frac{2k_0 Qq}{\left(L^2+x^2\right)^{3/2}} x \\
-            & \text{∴} \;\; a_x \fallingdotseq -\frac{2k_0 Qq}{mL^3} x \;.
-        \end{align*}
-        %
-        よって，
-        %
-        \begin{align*}
-            \uwave{T = 2\pi \sqrt{\frac{mL^3}{2k_0 Qq}}} \;.
-        \end{align*}
-
-\end{enumerate}
-
+            \myspaceb%
+            $\displaystyle%
+                \therefore \; a_x \fallingdotseq -\myfracc{2k_0 Qq}{mL^3} x \;.
+            $\\
+            よって，
+            
+            \myspaceb%
+            $\displaystyle%
+                \uwave{T = 2\pi \sqrt{\myfraca{mL^3}{2k_0 Qq}}} \;.
+            $
+    \end{enumerate}
 \end{document}

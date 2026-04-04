@@ -1,33 +1,21 @@
-\documentclass[ps_master.tex]{subfiles}
+\documentclass[fleqn,head_space=14mm,foot_space=14mm,gutter=10mm,fore_edge=10mm,
+    twocolumn,jafontscale=0.92]{jlreq}
 
-% Override settings for problem set mode (when compiled standalone)
-\renewcommand{\mytitle}{【大学入試 物理】 標準演習〈問題編〉 ver.01}
-\setlist[enumerate]{label=\textsf{（\hspace{-.3pt}\arabic*\hspace{-.3pt}）}\, ,
-    topsep=2pt, itemsep=1.5pt, itemindent=1\zw, leftmargin=1\zw}
+\input{ps_0master.tex}
+
+\newcommand{\mytitle}{【大学入試 物理】 標準演習〈問題編〉 ver.01}
 \title{\mytitle}
 
 \begin{document}
-
     \maketitle
-    
     \clearpage
-
     \subfile{me_mechanics/ps_me_q.tex}
-    
     \clearpage
-
     \subfile{th_thermodynamics/ps_th_q.tex}
-
     \clearpage
-
     \subfile{em_electromagnetism/ps_em_q.tex}
-
     \clearpage
-
     \subfile{wa_wave/ps_wa_q.tex}
-
     \clearpage
-
     \subfile{mp_modernphysics/ps_mp_q.tex}
-
 \end{document}

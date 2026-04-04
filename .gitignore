@@ -27,6 +27,8 @@ Thumbs.db
 *.swp
 *.bak
 *~
+.vscode/
+!.vscode/settings.json
 
 # VSCode
 .vscode/
