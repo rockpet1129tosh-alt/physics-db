@@ -1,0 +1,84 @@
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns, arrows.meta}
+
+\usepackage{circuitikz}
+\ctikzset{batteries/scale=.9, grounds/scale=.9}
+
+\usepackage{luatexja} 
+
+\begin{document}
+    \begin{circuitikz}[>=Stealth, thick]
+        
+        % パラメータの定義
+        \pgfmathsetmacro{\d}{1.5}
+        \pgfmathsetmacro{\L}{3.0}
+        \pgfmathsetmacro{\xgap}{3.3}
+        \pgfmathsetmacro{\xplate}{3.2}     
+        \pgfmathsetmacro{\yplate}{1.5}
+        \pgfmathsetmacro{\xmargin}{0.4}
+        \pgfmathsetmacro{\yelec}{1}
+        \pgfmathsetmacro{\yv}{0.3}
+        \pgfmathsetmacro{\yslit}{0.1}
+        \pgfmathsetmacro{\xtool}{0.6}
+        \pgfmathsetmacro{\ytool}{0.18}
+        \pgfmathsetmacro{\rb}{0.13}
+        \pgfmathsetmacro{\xaxis}{0.9}
+        \pgfmathsetmacro{\yaxis}{\xaxis}
+
+        \coordinate (O) at (0,0);
+        \coordinate (S1) at (\d, 0);
+        \coordinate (S2) at (\d+\xgap, 0);
+        \coordinate (S3) at (\d+\xgap, -\L);
+        \coordinate (B1) at (\d+\xgap+\xplate/2, \yplate/2);
+        \coordinate (B2) at (\d+\xgap+3*\xplate/9, -\L/2);
+
+        % 板a
+        \draw[very thick] (0, -\yelec) -- (0, \yelec) node[left, yshift=-4pt] {a};
+        \fill (O) circle (1.8pt) node[above right] {O};
+
+        % 板b
+        \draw[very thick] (\d, -\yelec) -- (\d, -\yslit) (\d, \yslit) -- (\d, \yelec)%
+        node[right, yshift=-4pt] {b};
+        \node[below right] at (\d, 0) {$\mathrm{S}_1$};
+
+        % 電圧V
+        \draw[thin] (0, -\yelec) -- (0, -\yelec-\yv)
+            to [battery1,l_=$V$,thin] ++ (\d, 0) -- (\d, -\yelec);
+        \node[ground,thin] at (\d, -\yelec-\yv) {};
+        
+        % 板c
+        \draw (\d+\xgap, \yslit) -- (\d+\xgap, \yplate)  node[left,yshift=-4pt] {c}
+            (\d+\xgap, -\yslit) -- (\d+\xgap, -\L+\yslit)
+            (\d+\xgap, -\L-\yslit) -- (\d+\xgap, -\L-\yplate);
+        \draw[thin] (\d+\xgap, -\L-\yplate) -- (\d+\xgap-2*\yslit, -\L-\yplate)
+            node[ground, thin] {};
+        \node[above left] at (\d+\xgap, 0) {$\mathrm{S}_2$};
+        \node[below left] at (\d+\xgap, -\L) {$\mathrm{S}_3$};
+
+        % 磁場領域
+        \fill[pattern=north east lines, pattern color=gray!60]%
+            (\d+\xgap, \yplate) rectangle (\d+\xgap+\xplate, -\L-\yplate);
+        \node[fill=white, inner sep=4pt] at (B1) {$B$};
+        \fill[white] (B2) ++ (-2*\rb, 4*\rb) rectangle ++ (\xaxis+5*\rb, -\yaxis-7.6*\rb);
+        \draw[->] (B2) --++ (\xaxis, 0) node[right,outer sep=0pt] {$x$};
+        \draw[->] (B2) --++ (0, -\yaxis) node[below,outer sep=0pt] {$y$};
+        \filldraw[fill=white,semithick] (B2) circle (\rb);
+        \draw (B2) --++ (45:\rb) (B2) --++ (135:\rb) (B2) --++ (225:\rb) (B2) --++ (315:\rb);
+        \node[above,outer sep=4pt] at (B2) {$z$};
+        
+        % d,Lの指定
+        \draw[<->] (0, \yelec+1.6*\yslit) -- (\d, \yelec+1.6*\yslit) node[midway, above] {$d$};
+        \draw[<->] (\d+\xgap-1.6*\yslit, 0) -- (\d+\xgap-1.6*\yslit, -\L) node[midway, left] {$L$} ;
+
+        % 粒子検出器
+        \draw (\d+\xgap-1.2*\xtool, -\L-\ytool) -- (\d+\xgap-2.2*\xtool, -\L-\ytool)%
+            -- (\d+\xgap-2.2*\xtool, -\L+\ytool) -- (\d+\xgap-1.2*\xtool, -\L+\ytool);
+        \node[left,font=\small] at (\d+\xgap-2.2*\xtool, -\L) {粒子検出器};
+
+        % 補助線（点線）
+        \draw[dotted, semithick] (-\xmargin, 0) -- (\d+\xgap+\xplate+\xmargin, 0);
+
+    \end{circuitikz}
+\end{document}

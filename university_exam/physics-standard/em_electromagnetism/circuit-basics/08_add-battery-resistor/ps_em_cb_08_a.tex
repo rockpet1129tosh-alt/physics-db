@@ -1,43 +1,38 @@
-﻿ 
-\documentclass[../../../ps_a.tex]{subfiles}
+﻿\documentclass[../../../ps_a.tex]{subfiles}
 
 \begin{document}
+    \begin{enumerate}
+        \item $\mathrm{R}_2$の電流を$i$（右向き）とすると，$\mathrm{R}_3$の電流は$I-i$（右向き）である．%
+            キルヒホッフ則より，
+            
+            \myspaceb%
+            $\displaystyle%
+                \Biggl\{
+                    \begin{myaligna}
+                        & 2Ri + 2RI = 3V_0 \; , \\
+                        & 2Ri = R(I-i) + V_0
+                    \end{myaligna}
+                \qquad \therefore \; i = \myfracc{5V_0}{8R} \;,
+                \quad I = \uwave{\myfracc{7V_0}{8R}} \;.
+            $
+        \item $\mathrm{R}_1$の電流を$i$（右向き），$\mathrm{R}_5$の電流を$j$（上向き）とすると，%
+            $\mathrm{R}_2$の電流は$i+j$（右向き），$\mathrm{R}_3$の電流は$I-i$（右向き），%
+            $\mathrm{R}_4$の電流は$I-i-j$（右向き）である．キルヒホッフ則より，
+            
+            \myspaceb%
+            $\displaystyle%
+                 \Biggl\{
+                    \begin{myaligna}
+                        & R(i+j) + Ri = 3R(I-i-j) + R(I-i) = V_0 \; , \\
+                        & Ri = Rj + R(I-i)
+                    \end{myaligna}
+            $
 
-\setlength{\abovedisplayskip}{2mm}
-\setlength{\belowdisplayskip}{1mm}
-
-\begin{enumerate}
-
-    \item R$_2$の電流を$i$（右向き）とすると，R$_3$の電流は$I-i$（右向き）である．
-        キルヒホッフ則より，
-        %
-        \begin{align*}
-            \left\{
-                \begin{aligned}
-                    & 2Ri + 2RI = 3V_0 \; , \\
-                    & 2Ri = R(I-i) + V_0
-                \end{aligned}
-            \right.
-            \qquad \text{∴} \; i = \frac{5V_0}{8R} \;,
-            \quad I = \uwave{\frac{7V_0}{8R}} \;.
-        \end{align*}
-
-    \item R$_1$の電流を$i$（右向き），R$_5$の電流を$j$（上向き）とすると，
-        R$_2$の電流は$i+j$（右向き），R$_3$の電流は$I-i$（右向き），
-        R$_4$の電流は$I-i-j$（右向き）である．キルヒホッフ則より，
-        %
-        \begin{align*}
-            & \left\{
-                \begin{aligned}
-                    & R(i+j) + Ri = 3R(I-i-j) + R(I-i) = V_0 \; , \\
-                    & Ri = Rj + R(I-i)
-                \end{aligned}
-            \right. \\
-            & \text{∴} \; i = \frac{4V_0}{9R} \;,
-            \quad j = \frac{V_0}{9R} \;,
-            \quad I = \uwave{\frac{7V_0}{9R}} \;.
-        \end{align*}
-    
-\end{enumerate}
-
+            \myspaceb%
+            $\displaystyle%
+                \therefore \; i = \myfracc{4V_0}{9R} \;,
+                \quad j = \myfracc{V_0}{9R} \;,
+                \quad I = \uwave{\myfracc{7V_0}{9R}} \;.
+            $        
+    \end{enumerate}
 \end{document}

@@ -1,44 +1,38 @@
-﻿
-\documentclass[../../../ps_a.tex]{subfiles}
+﻿\documentclass[../../../ps_a.tex]{subfiles}
 
 \begin{document}
+    キルヒホッフ則より，
+    
+    \myspaceb%
+    $\displaystyle%
+        \myfracc{Q}{C} = RI \;.\quad\cdots\cdots\cdots\;\mynumberb{1}
+    $\\
+    コンデンサの上側極板へ単位時間あたりに流出する電荷が$I$であるから，
+    
+    \myspaceb%
+    $\displaystyle%
+        \myfracc{dQ}{dt} = -I \;. \quad\cdots\cdots\cdots\;\mynumberb{2}
+    $
 
-\setlength{\abovedisplayskip}{2mm}
-\setlength{\belowdisplayskip}{1mm}  
-
-キルヒホッフ則より，
-%
-\begin{align*}
-    \frac{Q}{C} = RI \;. \myleader{1.8cm} \text{①}
-\end{align*}
-%
-コンデンサの上側極板へ単位時間あたりに流出する電荷が$I$であるから，
-\begin{align*}
-    \dv{Q}{t} = -I \;. \myleader{1.8cm} \text{②}
-\end{align*}
-%
-
-\begin{enumerate}
-
-    \item $Q = kQ_0$のとき，①より，
-        %
-        \begin{align*}
-            I = k \frac{Q_0}{RC} \;.
-        \end{align*}
-        
-    \item ①，②より，
-        %
-        \begin{align*}
-            \dv{Q}{t} = - \frac{1}{RC} Q \;.
-        \end{align*}
-        %
-        よって，
-        %
-        \begin{align*}
-            Q = \uwave{Q_0 e^{-t/RC}} \;,
-            \quad I = \uwave{\frac{Q_0}{RC} e^{-t/RC}} \;.
-        \end{align*}
-
-\end{enumerate}
-
+    \begin{enumerate}
+        \item $Q = kQ_0$のとき，\mynumberb{1}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                I = k \myfracc{Q_0}{RC} \;.
+            $            
+        \item \mynumberb{1}，\mynumberb{2}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                \myfracc{dQ}{dt} = - \myfraca{1}{RC} Q \;.
+            $\\
+            よって，
+            
+            \myspaceb%
+            $\displaystyle%
+                Q = \uwave{Q_0 e^{-t/RC}} \;,
+                \quad I = \uwave{\myfracc{Q_0}{RC} e^{-t/RC}} \;.
+            $
+    \end{enumerate}
 \end{document}

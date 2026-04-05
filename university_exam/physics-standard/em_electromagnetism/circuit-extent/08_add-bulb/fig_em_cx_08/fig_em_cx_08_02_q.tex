@@ -1,0 +1,27 @@
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usepackage{luatexja}
+
+\usepackage{circuitikz}
+
+\ctikzset{resistors/width=1.1, batteries/scale=1.2, 
+    capacitors/width=0.2, capacitors/height=0.9,
+    grounds/scale=1.6}
+\ctikzset{bipoles/cuteswitch/thickness=0.23}
+\ctikzset{misc/scale=0.8}
+
+\begin{document}
+
+    \begin{circuitikz}
+
+        \pgfmathsetmacro{\xa}{2}
+        \pgfmathsetmacro{\ya}{4}
+        \pgfmathsetmacro{\yb}{\ya/3}
+        
+        \draw (0,0) to [battery1, invert, l_=$E$] ++ (0,\yb)
+            to [european resistor, l_=$r$] ++ (0,\ya-\yb) -- (\xa, \ya)
+            to [lamp, l_={\small 電球}] ++ (0,-\ya) -- (0,0);         
+    \end{circuitikz}
+
+\end{document}
