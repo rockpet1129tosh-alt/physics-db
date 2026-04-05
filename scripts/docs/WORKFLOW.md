@@ -281,5 +281,5 @@ git submodule update --remote
 
 ---
 
-**次のステップ**: [scripts/docs/POLICIES.md](docs/POLICIES.md) で運用ポリシーを確認  
-**困ったら**: [scripts/docs/HANDOVER_2026-03-01.md](docs/HANDOVER_2026-03-01.md) の経緯を参照
+**次のステップ**: [POLICIES.md](POLICIES.md) で運用ポリシーを確認  
+**困ったら**: [history/HANDOVER_2026-03-01.md](history/HANDOVER_2026-03-01.md) の経緯を参照

@@ -1,7 +1,7 @@
 # Standalone図ファイル tikzlibrary完全リスト
 
 param(
-    [string]$RepoRoot = "c:\Users\selec\Documents\tex_all\physics-db"
+    [string]$RepoRoot = "c:\Users\selec\Documents\tex_all\science-db"
 )
 
 # 全てのstandalone図ファイルを取得
@@ -14,7 +14,7 @@ $report = @()
 
 foreach ($file in $figFiles) {
     $content = Get-Content $file.FullName -Raw
-    $relativePath = $file.FullName.Replace("$RepoRoot\university_exam\physics-standard\", "")
+    $relativePath = $file.FullName.Replace("$RepoRoot\university_exam\physics\standard\", "")
     
     # \usetikzlibrary行を抽出
     if ($content -match '\\usetikzlibrary\{([^}]+)\}') {

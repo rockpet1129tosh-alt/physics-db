@@ -1,9 +1,9 @@
-$baseDir = "c:\Users\selec\Documents\tex_all\physics-db\university_exam\physics-standard\em_electromagnetism"
+$baseDir = "c:\Users\selec\Documents\tex_all\science-db\university_exam\physics\standard\electromagnetism"
 $count = 0
 $success = 0
 $failed = 0
 
-Get-ChildItem $baseDir -Recurse | Where-Object { $_.Name -match '^fig_em_.*_[qa]\.tex$' } | ForEach-Object {
+Get-ChildItem $baseDir -Recurse | Where-Object { $_.Name -match '^fig_uem_phy_std_em_.*_[qa]\.tex$' } | ForEach-Object {
     $count++
     $baseName = $_.BaseName
     $pdfFile = Join-Path $_.DirectoryName "${baseName}.pdf"

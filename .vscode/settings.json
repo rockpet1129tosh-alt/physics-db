@@ -1,10 +1,8 @@
 {
   "latex-workshop.latex.search.rootFiles.exclude": [
-    "**/university_exam/physics-standard/ps_master.tex",
-    "**/university_exam/okayama-u/uem_oka_0master.tex"
+    "**/*_0master.tex"
   ],
   "latex-workshop.latex.watch.files.ignore": [
-    "**/university_exam/physics-standard/ps_master.tex",
-    "**/university_exam/okayama-u/uem_oka_0master.tex"
+    "**/*_0master.tex"
   ]
 }

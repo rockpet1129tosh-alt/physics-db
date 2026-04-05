@@ -1,0 +1,10 @@
+year: 2025
+university: okayama-u
+subject: physics
+series: uem
+sets:
+  - code: uni
+    label: 全学部
+status: draft
+notes:
+  - 岡山大学 2025年度 物理の試験問題セット管理用メタ

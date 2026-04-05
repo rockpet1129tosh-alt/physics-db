@@ -53,21 +53,18 @@
 
 ```
 scripts/
-├── docs/              # ドキュメント（このフォルダ）
-│   ├── STRUCTURE.md          # プロジェクト構成
-│   ├── HANDOVER_*.md         # 引き継ぎメモ
-│   ├── POLICIES.md           # このファイル（運用ルール）
-│   └── ... その他ドキュメント
-│
-├── compile/           # LaTeX コンパイル用スクリプト
-│   ├── compile_all.ps1       # 全TeXファイルをコンパイル
-│   ├── compile_all_standalone.ps1
-│   └── compile_all_tikz.ps1
-│
-└── migration/         # マイグレーション・ツール
-    ├── *.ps1                 # マイグレーション用スクリプト
-    ├── *.md                  # 作業レポート・詳細記録
-    └── ... ツール・ユーティリティ
+├── README.md                # 運用ハブ
+├── compile/                 # LaTeX コンパイル用スクリプト
+├── migration/               # マイグレーション・最適化ツール
+│   └── reports/             # 自動生成レポート・作業記録
+└── docs/                    # 運用文書の集約
+    ├── README.md            # docs の索引
+    ├── README_STRUCTURE.md  # リポジトリ構造ガイド
+    ├── UNIVERSITY-EXAM-DB.md  # 大学入試DBの命名・構成メモ
+    ├── POLICIES.md          # このファイル（運用ルール）
+    ├── WORKFLOW.md          # 日常作業フロー
+    ├── SUBFILES-GUIDE.md    # subfiles 詳細ガイド
+    └── history/             # 履歴資料・旧メモ
 ```
 
 **原則:**
@@ -81,11 +78,14 @@ scripts/
 
 ### ドキュメント保存ルール
 
-- **変更ログ・ハンドオーバー:** `scripts/docs/HANDOVER_*.md`
+- **変更ログ・ハンドオーバー:** `scripts/docs/history/HANDOVER_*.md`
   - 新しい引き継ぎメモは日付付きで保存（例: `HANDOVER_2026-03-01.md`）
 
-- **プロジェクト構成・技術仕様:** `scripts/docs/STRUCTURE.md`
-  - ファイル命名規則、TikZ ライブラリ、コンパイル規約
+- **プロジェクト構成・技術仕様:** `scripts/docs/README_STRUCTURE.md`
+  - フォルダ構造、命名規則、コンパイル規約
+
+- **大学入試DBの確定構成:** `scripts/docs/UNIVERSITY-EXAM-DB.md`
+  - `uem` / `hsm`、`uem_phy_std`、教科→大学構成の整理
 
 - **運用ポリシー・ルール:** `scripts/docs/POLICIES.md`
   - このファイル。Git管理、チャット割り当て、ドキュメント原則など

@@ -652,8 +652,8 @@ ls ../../../ps_q.tex  # ファイルが見えるか確認
 ## 参考資料
 
 - **LaTeX subfiles パッケージ公式**: CTAN subfiles
-- **science-db README_STRUCTURE.md**: [scripts/README_STRUCTURE.md](../README_STRUCTURE.md) の「subfiles 構造」セクション
-- **science-db WORKFLOW.md**: [scripts/docs/WORKFLOW.md](WORKFLOW.md) の「Git ワークフロー」セクション
+- **science-db README_STRUCTURE.md**: [README_STRUCTURE.md](README_STRUCTURE.md) の「subfiles 構造」セクション
+- **science-db WORKFLOW.md**: [WORKFLOW.md](WORKFLOW.md) の「Git ワークフロー」セクション
 
 ---
 

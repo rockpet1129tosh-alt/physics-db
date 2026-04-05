@@ -1,7 +1,7 @@
 # Standalone図ファイルを全てコンパイルして動作確認
 
 param(
-    [string]$RepoRoot = "c:\Users\selec\Documents\tex_all\physics-db"
+    [string]$RepoRoot = "c:\Users\selec\Documents\tex_all\science-db"
 )
 
 $ErrorActionPreference = 'Continue'
@@ -18,7 +18,7 @@ $failed = 0
 $errors = @()
 
 foreach ($file in $figFiles) {
-    $relativePath = $file.FullName.Replace("$RepoRoot\university_exam\physics-standard\", "")
+    $relativePath = $file.FullName.Replace("$RepoRoot\university_exam\physics\standard\", "")
     Write-Host "コンパイル中: $($file.Name)" -ForegroundColor Yellow -NoNewline
     
     # ファイルのディレクトリに移動してコンパイル

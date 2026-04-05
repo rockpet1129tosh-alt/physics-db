@@ -1,0 +1,67 @@
+\documentclass[../../../uem_phy_std_a.tex]{subfiles}
+
+\begin{document}
+    キルヒホッフ則より，
+    
+    \myspaceb%
+    $\displaystyle%
+        V_0 = \myfracc{Q}{C} + RI \;.\quad\cdots\cdots\cdots\;\mynumberb{1}
+    $\\
+    コンデンサの上側極板へ単位時間あたりに流入する電荷が$I$であるから，
+    
+    \myspaceb%
+    $\displaystyle%
+        I = \myfracc{dQ}{dt} \;.\quad\cdots\cdots\cdots\;\mynumberb{2}
+    $
+    
+    \begin{enumerate}
+        \item $t=0$直後には$Q=0$であるから，\mynumberb{1}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                I_0 = \myfracc{V_0}{R} \;.
+            $\\
+            よって，
+            
+            \myspaceb%
+            $\displaystyle%
+                R = \myfracc{V_0}{I_0}%
+                = \myfraca{5.0\:\mathrm{V}}{2.0\:\mathrm{mA}}%
+                = \uwave{2.5\:\mathrm{k}\Omega} \;.
+            $\\
+            また，充分に時間が経過し，電荷が一定となったときには$I=0$であるから，\mynumberb{1}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                Q_\infty = CV_0 \;.
+            $\\
+            よって，
+            
+            \myspaceb%
+            $\displaystyle%
+                C = \myfracc{Q_\infty}{V_0}%
+                = \myfracc{15\:\text{\textmu C}}{5.0\:\mathrm{V}}%
+                = \uwave{3.0\:\text{\textmu F}} \;.
+            $
+        \item $Q = kQ_\infty = kCV_0$となったとき，\mynumberb{1}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                V_0 = kV_0 + RI%
+                \qquad \therefore \; I = \uwave{(1-k) \myfracc{V_0}{R}} \;.
+            $
+        \item \mynumberb{1}，\mynumberb{2}より，
+            
+            \myspaceb%
+            $\displaystyle%
+                \myfracc{dQ}{dt} = - \myfraca{1}{RC} (Q-CV_0) \;.
+            $\\
+            よって，
+            
+            \myspaceb%
+            $\displaystyle%
+                Q = \uwave{CV_0\left( 1 - e^{-t/RC} \right)} \;,%
+                \quad I = \uwave{\myfracc{V_0}{R} e^{-t/RC}} \;.
+            $
+    \end{enumerate}
+\end{document}

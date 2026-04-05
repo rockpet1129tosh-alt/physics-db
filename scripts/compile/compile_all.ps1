@@ -6,7 +6,7 @@ $ErrorActionPreference = "Continue"
 
 if ([string]::IsNullOrWhiteSpace($TargetDir)) {
     $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..\..")
-    $baseDir = Join-Path $repoRoot "university_exam\physics-standard"
+    $baseDir = Join-Path $repoRoot "university_exam\physics\standard"
 }
 else {
     $baseDir = (Resolve-Path $TargetDir).Path
@@ -88,9 +88,9 @@ function Compile-TexFile {
     $script:totalFiles++
 }
 
-# Step 1: Top-level files (ps_q.tex and ps_a.tex)
-Write-Host "Step 1: Top-level files (ps_q.tex and ps_a.tex)" -ForegroundColor Yellow
-$topLevelFiles = @("ps_q.tex", "ps_a.tex")
+# Step 1: Top-level files (uem_phy_std_q.tex and uem_phy_std_a.tex)
+Write-Host "Step 1: Top-level files (uem_phy_std_q.tex and uem_phy_std_a.tex)" -ForegroundColor Yellow
+$topLevelFiles = @("uem_phy_std_q.tex", "uem_phy_std_a.tex")
 foreach ($file in $topLevelFiles) {
     $fullPath = Join-Path $baseDir $file
     if (Test-Path $fullPath) {
@@ -102,8 +102,8 @@ Write-Host ""
 
 # Step 2: Domain-level parent files
 Write-Host "Step 2: Domain-level parent files" -ForegroundColor Yellow
-Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
-    $_.Directory.Name -match "^(em_|me_|th_|mp_|wa_)"
+Get-ChildItem -Path $baseDir -Recurse -Filter "uem_phy_std_*.tex" -File | Where-Object {
+    $_.Directory.Name -match "^(electromagnetism|mechanics|thermodynamics|modern-physics|wave)$"
 } | ForEach-Object {
     Compile-TexFile -FilePath $_.FullName
 }
@@ -112,8 +112,8 @@ Write-Host ""
 
 # Step 3: Child files
 Write-Host "Step 3: Child files (individual problems)" -ForegroundColor Yellow
-Get-ChildItem -Path $baseDir -Recurse -Filter "ps_*.tex" -File | Where-Object {
-    $_.Directory.Name -notmatch "^(em_|me_|th_|mp_|wa_)" -and
+Get-ChildItem -Path $baseDir -Recurse -Filter "uem_phy_std_*.tex" -File | Where-Object {
+    $_.Directory.Name -notmatch "^(electromagnetism|mechanics|thermodynamics|modern-physics|wave)$" -and
     $_.Directory.FullName -ne $baseDir
 } | ForEach-Object {
     Compile-TexFile -FilePath $_.FullName
