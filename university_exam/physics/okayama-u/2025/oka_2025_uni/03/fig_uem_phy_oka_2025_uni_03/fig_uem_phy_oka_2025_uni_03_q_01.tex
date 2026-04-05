@@ -1,0 +1,94 @@
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns, arrows.meta, calc}
+
+\usepackage{luatexja} 
+\usepackage{amsmath}
+
+\newcommand{\myfraca}[2]{\dfrac{\raisebox{-1.5pt}{\,$#1$\,}}{\,#2\,}}
+
+\begin{document}
+    \begin{tikzpicture}[thick, >=Stealth]
+        \pgfmathsetmacro{\xA}{4.2}
+        \pgfmathsetmacro{\yA}{1.3}
+
+        \pgfmathsetmacro{\xB}{0.7}
+        \pgfmathsetmacro{\yB}{\yA}
+        
+        \pgfmathsetmacro{\xconnect}{2}
+        \pgfmathsetmacro{\yconnect}{0.13}
+        
+        \pgfmathsetmacro{\dpiston}{0.12}
+        \pgfmathsetmacro{\xpiston}{2.6}
+        
+        \pgfmathsetmacro{\dstopper}{0.24}
+
+        \pgfmathsetmacro{\rXbulb}{0.24}
+        \pgfmathsetmacro{\rYbulb}{\rXbulb*0.4}
+        \pgfmathsetmacro{\xbulb}{\rXbulb*0.4}
+        \pgfmathsetmacro{\ybulb}{2.2*\rYbulb}
+
+        \pgfmathsetmacro{\L}{4*\xB}
+        \pgfmathsetmacro{\dlabel}{0.3}
+
+        \pgfmathsetmacro{\darrow}{0.6}
+ 
+        % 容器A,B
+        \draw
+            (0, \yA) --++ (\xA, 0) --++ (0, \yconnect-\yA) --++ (\xconnect, 0)
+            --++ (0, \yA-\yconnect) --++ (\xB, 0) --++ (0, -2*\yB) --++ (-\xB, 0)
+            --++ (0, \yB-\yconnect) --++ (-\xconnect, 0) --++ (0, -\yA+\yconnect)
+            --++ (-\xA, 0);
+
+        % ピストン
+        \filldraw[pattern=north west lines]
+            (\xA-\L, -\yA) --++ (0, 2*\yA) --++ (-2*\dpiston, 0) --++ (0, -\yA+\dpiston)
+            --++ (-\xpiston,0) --++ (0, -2*\dpiston) --++ (\xpiston, 0)
+            --++ (0, -\yA+\dpiston) --++ (2*\dpiston, 0) -- cycle;
+
+        % ストッパー
+        \filldraw[fill=black!70]
+            (\xA-\L,\yA) rectangle ++ (\dstopper, -\dstopper)
+            (\xA-\L-2*\dpiston,\yA) rectangle ++ (-\dstopper, -\dstopper)
+            (\xA-\L,-\yA) rectangle ++ (\dstopper, \dstopper)
+            (\xA-\L-2*\dpiston,-\yA) rectangle ++ (-\dstopper, \dstopper);
+
+        % バルブ
+        \fill[black!80]
+            (\xA+\xconnect/2, 2*\yconnect) circle [x radius=\rXbulb, y radius=\rYbulb];
+        \fill[black!80]
+            (\xA+\xconnect/2-\xbulb, 2*\yconnect) --++ (0, -3*\yconnect)
+            to[out=270, in=160] ++ (\xbulb, -\ybulb)
+            to[out=20, in=270] ++ (\xbulb, \ybulb)
+            --++ (0, 3*\yconnect) -- cycle;
+        
+        % 寸法 L
+        \draw[<->, semithick]
+            (\xA, \yA+1.3*\dlabel) coordinate (A1)
+            --++ (-\L,0) coordinate (A2) node[midway, above] {$L$};
+        \draw[semithick]
+            (A1) --++ (0, -\dlabel) (A1) --++ (0, \dlabel)
+            (A2) --++ (0, -\dlabel) (A2) --++ (0, \dlabel);
+
+        
+        % 寸法 L/4
+        \draw[<->, semithick]
+            (\xA+\xconnect+\xB, \yA+1.3*\dlabel) coordinate (B1)
+            --++ (-\L/4,0) coordinate (B2) node[midway, above] {$\myfraca{L}{4}$};
+        \draw[semithick]
+            (B1) --++ (0, -\dlabel) (B1) --++ (0, \dlabel)
+            (B2) --++ (0, -\dlabel) (B2) --++ (0, \dlabel);
+        
+        % テキストラベル
+        \node[above left] at (\xA-\L-2*\dpiston, \dpiston) {$P_0$};
+        \node[below] at (\xA/2, -\yA) {{\small 容器A}};
+        \node[below] at (\xA+\xconnect+\xB/2, -\yB) {{\small 容器B}};
+        \node[above,outer sep=-1pt] at (\xA+\xconnect/2, 2*\yconnect+\rYbulb) {{\small バルブ}};
+        \draw[<-, semithick] (-\xpiston/6, \dstopper/2) --++ (100:\darrow)
+            node[above, inner sep=1pt, xshift=-7pt] {{\small ピストン}};
+        \draw[<-, semithick] (\xA-\L-2*\dpiston-\dstopper, -\yA+\dstopper/2) --++ (160:\darrow)
+            node[left, inner sep=2pt, yshift=2pt] {{\small ストッパー}};
+            
+    \end{tikzpicture}
+\end{document}
