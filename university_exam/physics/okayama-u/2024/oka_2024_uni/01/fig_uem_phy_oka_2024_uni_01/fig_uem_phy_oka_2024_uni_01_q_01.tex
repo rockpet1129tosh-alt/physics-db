@@ -1,7 +1,7 @@
 \documentclass[border=1pt]{standalone}
 
 \usepackage{tikz}
-\usetikzlibrary{patterns.meta, arrows.meta}
+\usetikzlibrary{patterns, arrows.meta}
 
 \usepackage{luatexja} 
 
@@ -23,14 +23,18 @@
         \pgfmathsetmacro{\db}{0.07}
 
         % 床
-        \fill[pattern={Lines[distance=3pt,angle=45,line width=0.4pt]}]
-            (-\xflo, -\yflo) rectangle (\xflo, 0);
-        \draw (-\xflo, 0) -- (\xflo, 0) node[right, font=\small] {床};
+        \fill[pattern=north east lines, pattern color=black!60] (-\xflo, -\yflo) rectangle (\xflo, 0);
+        \draw (-\xflo, 0) -- (\xflo, 0) node[right, font=\small, text width=20pt] {床};
 
         % 台
         \draw[fill=white] (-\xbox, 0) -- (\xbox, 0) -- (\xbox, \ybox) -- (\rbox, \ybox) 
             arc (0:-180:\rbox) -- (-\xbox, \ybox) -- cycle;
         \node[font=\small] at (\xbox/2, \ybox/2-\rbox/2) {台};
+
+        % ストッパー
+        \filldraw[fill=black!30] (-\xbox, 0) -- (-\xbox-\xsto, 0) -- (-\xbox, \ysto) -- cycle;
+        \filldraw[fill=black!30] (\xbox, 0) -- (\xbox+\xsto, 0) -- (\xbox, \ysto) -- cycle;
+        \node[left, outer sep=2pt, font=\small] at (-\xbox, \ysto) {ストッパー};
 
         % 小球
         \filldraw[fill=black!20] (-\rbox+\rball, \ybox) circle (\rball);
@@ -54,7 +58,7 @@
         \draw[->,semithick] (P) --++ (335:\rbox) node[midway, above] {$r$};
 
         % 左余白調整
-        \node[left, font=\small] at (-\xflo, 0) {　};
+        \node[left, font=\small, text width=20pt] at (-\xflo, 0) {　};
 
     \end{tikzpicture}
 \end{document}

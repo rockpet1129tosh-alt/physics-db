@@ -1,7 +1,7 @@
 \documentclass[border=1pt]{standalone}
 
 \usepackage{tikz}
-\usetikzlibrary{patterns.meta, arrows.meta}
+\usetikzlibrary{patterns, arrows.meta}
 
 \usepackage{circuitikz}
 \ctikzset{batteries/scale=.9, grounds/scale=.9}
@@ -58,7 +58,7 @@
         \node[below left] at (\d+\xgap, -\L) {$\mathrm{S}_3$};
 
         % 磁場領域
-        \fill[pattern={Lines[distance=3pt,angle=45,line width=0.3pt]}]
+        \fill[pattern=north east lines, pattern color=gray!60]%
             (\d+\xgap, \yplate) rectangle (\d+\xgap+\xplate, -\L-\yplate);
         \node[fill=white, inner sep=4pt] at (B1) {$B$};
         \fill[white] (B2) ++ (-2*\rb, 4*\rb) rectangle ++ (\xaxis+5*\rb, -\yaxis-7.6*\rb);

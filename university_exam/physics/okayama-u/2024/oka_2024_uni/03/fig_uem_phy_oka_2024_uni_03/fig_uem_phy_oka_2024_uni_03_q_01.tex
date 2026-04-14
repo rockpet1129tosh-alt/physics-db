@@ -1,7 +1,7 @@
 \documentclass[border=1pt]{standalone}
 
 \usepackage{tikz}
-\usetikzlibrary{patterns.meta, arrows.meta, calc}
+\usetikzlibrary{patterns, arrows.meta, calc}
 
 \usepackage{luatexja} 
 \usepackage{amsmath}
@@ -42,7 +42,7 @@
             --++ (-\xA, 0);
 
         % ピストン
-        \filldraw[pattern={Lines[distance=3pt,angle=45,line width=0.7pt]}]
+        \filldraw[pattern=north west lines]
             (\xA-\L, -\yA) --++ (0, 2*\yA) --++ (-2*\dpiston, 0) --++ (0, -\yA+\dpiston)
             --++ (-\xpiston,0) --++ (0, -2*\dpiston) --++ (\xpiston, 0)
             --++ (0, -\yA+\dpiston) --++ (2*\dpiston, 0) -- cycle;

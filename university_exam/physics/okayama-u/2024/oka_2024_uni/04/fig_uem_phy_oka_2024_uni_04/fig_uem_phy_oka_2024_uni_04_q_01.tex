@@ -1,0 +1,90 @@
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, calc}
+
+\usepackage{luatexja} 
+\usepackage{amsmath}
+
+\begin{document}
+    \begin{tikzpicture}[>=Stealth, thick]
+        % パラメータの定義
+        \pgfmathsetmacro{\R}{4.1}
+
+        \pgfmathsetmacro{\rd}{2.1}
+        
+        \pgfmathsetmacro{\xlens}{2.6} 
+        \pgfmathsetmacro{\ylensa}{{\R - sqrt(\R^2 - (\xlens)^2)}}
+
+        \pgfmathsetmacro{\yra}{\R - sqrt(\R^2 - \rd^2)}
+
+        \pgfmathsetmacro{\arrowgap}{\xlens/1.7}
+        \pgfmathsetmacro{\larrowa}{1.2}
+
+        \pgfmathsetmacro{\larrowb}{1.4}
+
+        % 座標の定義
+        \coordinate (C) at (0, 0);             
+        \coordinate (Or) at (0, \R);           
+
+        \coordinate (Pup) at (\rd, \yra);
+        \coordinate (Plow) at (\rd, 0);
+
+        \coordinate (Ea) at (\rd, \R);
+        \coordinate (Eb) at (\rd+0.23, \R-0.3);
+        \coordinate (Ec) at (\rd-0.1, \R-0.3);
+
+        % 平凸レンズ
+        \draw[domain=-\xlens:\xlens, samples=200] plot (\x, {\R - sqrt(\R^2 - (\x)^2)});
+        \draw (-\xlens, \ylensa) -- (\xlens, \ylensa);
+        \node[left] at (-\xlens, \ylensa) {\small 平凸レンズ};
+        \fill (Pup) circle (1.5pt);
+
+        % 平面ガラス
+        \draw (-\xlens, 0) rectangle (\xlens, -0.5*\ylensa);
+        \node[left] at (-\xlens, 0) {\small 平面ガラス};
+        \fill (Plow) circle (1.5pt);
+
+        % R,r,dの寸法線
+        \draw[semithick] (C) to[bend left=18] node[fill=white] {$R$} (Or); 
+        \draw[<->,semithick] (0, -0.24*\ylensa) --++ (\rd,0)
+            node[midway, fill=white, inner sep=2pt] {$r$};
+        \draw[semithick] (Pup) -- (\rd, -0.32*\ylensa);
+        \draw[<->,semithick] (1.16*\rd, 0) --++ (0, \yra) node[midway, right] {$d$};
+        \draw[semithick] (Pup) --++ (\xlens-\rd, 0);
+
+        % 垂直軸
+        \draw[dash pattern=on 5pt off 2pt on 2pt off 2pt, semithick]
+            (0, -0.32*\ylensa) -- (0, \R);
+
+        % 半径の線と中心点
+        \fill (Or) circle (1.5pt);
+        \draw[thin] (Or) --++ (220:0.7*\larrowa)
+            node[left, inner sep=1pt, align=left, font=\setlength{\baselineskip}{12pt},font=\small]
+            {平凸レンズの \\ 球面の中心};
+        \draw (Or) -- (Pup);
+
+        % 接点 C
+        \node[below left, inner sep=2pt] at (C) {C};
+        \fill (C) circle (1.5pt);
+
+        % 単色光の矢印
+        \node[above] at (0, 1.08*\R+0.9*\larrowa) {\small 単色光};
+        \foreach \x in {-1.5*\arrowgap, -0.5*\arrowgap, 0.5*\arrowgap, 1.5*\arrowgap}
+            {
+                \draw[thick, <-] (\x, 1.08*\R) --++ (0, \larrowa);
+            }
+        
+        % 観測者
+        \draw (Ea) to[bend left=25] (Eb);
+        \draw (Ea) to[bend left=14] (Ec);
+        \filldraw ($(Eb)!0.5!(Ec)$) circle [x radius=0.14, y radius=0.05];
+        \draw (Ec) to[bend left=20] ++(-0.04, -0.09);
+        \draw (Ec) ++ (0.02, 0.01) to[bend left=20] ++(-0.08, -0.02);
+        \node[right, yshift=3pt] at (Eb) {\small 観測者};
+
+        % 右側余白の調整
+        \node [right] at (\xlens, 0) {\small 　　　　　};
+
+    \end{tikzpicture}
+\end{document}
